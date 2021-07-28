@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1626934924054,887,1.1.1 home/api/u/tms/auth/isLogin,200,OK,WithdrawContractSendForInternalReview 1-1,text,true,,1667,460,1,1,https://dewdrops-rp.zycus.com/home/api/u/tms/auth/isLogin,887,0,840
+1626934924944,39,1.1.2 home/api/u/tms/auth/isLogin,200,OK,WithdrawContractSendForInternalReview 1-1,text,true,,1667,512,1,1,https://dewdrops-rp.zycus.com/home/api/u/tms/auth/isLogin,39,0,0
+1626934924984,37,1.1.3 home/api/u/dd/users/getCSRFToken,200,OK,WithdrawContractSendForInternalReview 1-1,text,true,,1330,1263,1,1,https://dewdrops-rp.zycus.com/home/api/u/dd/users/getCSRFToken,37,0,0
+1626934923988,963,1.1# Login,200,"Number of samples in transaction : 3, number of failing samples : 0",WithdrawContractSendForInternalReview 1-1,,true,,4664,2235,1,1,null,963,71,840
+1626934925023,53,1.2.1 home/api/u/tms/auth/login,417,Expectation Failed,WithdrawContractSendForInternalReview 1-1,text,false,"Test failed: text expected to contain /""status"":""success""/",1349,610,1,1,https://dewdrops-rp.zycus.com/home/api/u/tms/auth/login,53,0,0

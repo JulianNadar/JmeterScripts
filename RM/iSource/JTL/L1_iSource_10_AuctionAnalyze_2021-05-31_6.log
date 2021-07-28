@@ -1,0 +1,271 @@
+2021-05-31 12:55:55,953 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2021-05-31 12:55:55,964 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2021-05-31 12:55:55,964 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2021-05-31 12:55:55,964 INFO o.a.j.JMeter: Setting JMeter property: meter.reportgenerator.report_title=AuctionAnalyze
+2021-05-31 12:55:55,964 INFO o.a.j.JMeter: Setting JMeter property: thread=10
+2021-05-31 12:55:55,964 INFO o.a.j.JMeter: Setting JMeter property: rampup=30
+2021-05-31 12:55:55,967 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2021-05-31 12:55:55,967 INFO o.a.j.JMeter: Version 5.1 r1853635
+2021-05-31 12:55:55,973 INFO o.a.j.JMeter: java.version=1.8.0_121
+2021-05-31 12:55:55,973 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2021-05-31 12:55:55,973 INFO o.a.j.JMeter: os.name=Windows 10
+2021-05-31 12:55:55,973 INFO o.a.j.JMeter: os.arch=amd64
+2021-05-31 12:55:55,973 INFO o.a.j.JMeter: os.version=10.0
+2021-05-31 12:55:55,973 INFO o.a.j.JMeter: file.encoding=Cp1252
+2021-05-31 12:55:55,973 INFO o.a.j.JMeter: java.awt.headless=true
+2021-05-31 12:55:55,973 INFO o.a.j.JMeter: Max memory     =8589934592
+2021-05-31 12:55:55,973 INFO o.a.j.JMeter: Available Processors =6
+2021-05-31 12:55:55,976 INFO o.a.j.JMeter: Default Locale=English (EN)
+2021-05-31 12:55:55,976 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2021-05-31 12:55:55,976 INFO o.a.j.JMeter: JMeterHome=D:\apache-jmeter-5.1\apache-jmeter-5.1
+2021-05-31 12:55:55,976 INFO o.a.j.JMeter: user.dir  =D:\apache-jmeter-5.1\apache-jmeter-5.1\bin
+2021-05-31 12:55:55,977 INFO o.a.j.JMeter: PWD       =D:\apache-jmeter-5.1\apache-jmeter-5.1\bin
+2021-05-31 12:55:55,978 INFO o.a.j.JMeter: IP: 172.30.224.67 Name: ZIPLSY2278 FullName: ZIPLSY2278.zycus.net
+2021-05-31 12:55:55,980 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\xampp\htdocs\PerformancePostgres\L1_iSource_10_AuctionAnalyze_2021-05-31_6'
+2021-05-31 12:55:55,982 INFO o.a.j.s.FileServer: Default base='D:\apache-jmeter-5.1\apache-jmeter-5.1\bin'
+2021-05-31 12:55:55,984 INFO o.a.j.s.FileServer: Set new base='D:\PostrgresMigration\iSource'
+2021-05-31 12:55:56,077 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2021-05-31 12:55:56,086 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2021-05-31 12:55:56,090 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2021-05-31 12:55:56,094 INFO o.a.j.s.SaveService: Loading file: D:\PostrgresMigration\iSource\L1_iSource_AuctionAnalyze.jmx
+2021-05-31 12:55:56,132 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2021-05-31 12:55:56,136 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+2021-05-31 12:55:56,144 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-05-31 12:55:56,144 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-05-31 12:55:56,144 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-05-31 12:55:56,144 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-05-31 12:55:56,144 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2021-05-31 12:55:56,144 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2021-05-31 12:55:57,254 INFO o.a.j.JMeter: Creating summariser <summary>
+2021-05-31 12:55:57,261 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2021-05-31 12:55:57,261 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: D:\PostrgresMigration\iSource\JTL\L1_iSource_10_AuctionAnalyze_2021-05-31_6.jtl
+2021-05-31 12:55:57,261 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: D:\apache-jmeter-5.1\apache-jmeter-5.1\bin\reportgenerator.properties
+2021-05-31 12:55:57,263 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2021-05-31 12:55:57,270 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2021-05-31 12:55:57,273 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2021-05-31 12:55:57,274 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction : {} is empty, not APDEX per transaction customization
+2021-05-31 12:55:57,274 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2021-05-31 12:55:57,274 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2021-05-31 12:55:57,274 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2021-05-31 12:55:57,274 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2021-05-31 12:55:57,274 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2021-05-31 12:55:57,275 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2021-05-31 12:55:57,279 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2021-05-31 12:55:57,280 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-05-31 12:55:57,280 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2021-05-31 12:55:57,280 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2021-05-31 12:55:57,280 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2021-05-31 12:55:57,280 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2021-05-31 12:55:57,280 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-05-31 12:55:57,280 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-05-31 12:55:57,280 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-05-31 12:55:57,281 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-05-31 12:55:57,282 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2021-05-31 12:55:57,282 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2021-05-31 12:55:57,282 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2021-05-31 12:55:57,282 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2021-05-31 12:55:57,282 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2021-05-31 12:55:57,282 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2021-05-31 12:55:57,286 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2021-05-31 12:55:57,287 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-05-31 12:55:57,287 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-05-31 12:55:57,295 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2021-05-31 12:55:57,295 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2021-05-31 12:55:57,915 INFO o.a.j.JMeter: Running test (1622445957915)
+2021-05-31 12:55:58,000 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : L1_iSource_AuctionAnalyze-Job
+2021-05-31 12:55:58,000 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group L1_iSource_AuctionAnalyze-Job.
+2021-05-31 12:55:58,000 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
+2021-05-31 12:55:58,000 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=30 perThread=3000.0 delayedStart=false
+2021-05-31 12:55:58,062 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2021-05-31 12:55:58,062 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2021-05-31 12:55:58,062 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2021-05-31 12:55:58,062 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2021-05-31 12:55:58,093 INFO o.a.j.t.JMeterThread: Thread started: L1_iSource_AuctionAnalyze-Job 1-1
+2021-05-31 12:55:58,096 INFO o.a.j.c.LoopController: iterationStart called on Suppliers_BidReco with source org.apache.jmeter.control.LoopController@58acf29e and iteration 1
+2021-05-31 12:55:58,096 INFO o.a.j.c.LoopController: iterationStart called on Suppliers_Bidding with source org.apache.jmeter.control.LoopController@58acf29e and iteration 1
+2021-05-31 12:55:58,096 INFO o.a.j.c.LoopController: iterationStart called on 5.6# Questions_Text with source org.apache.jmeter.control.LoopController@58acf29e and iteration 1
+2021-05-31 12:55:58,098 INFO o.a.j.s.FileServer: Stored: D:\apache-jmeter-5.1\apache-jmeter-5.1\bin\excel\isource\Partner_ZCS_Users.csv
+2021-05-31 12:55:58,123 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = ZIPLSY2278
+2021-05-31 12:55:58,130 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2021-05-31 12:55:58,274 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2021-05-31 12:55:58,283 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2021-05-31 12:55:58,283 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2021-05-31 12:55:58,435 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2021-05-31 12:55:58,435 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2021-05-31 12:55:58,920 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2021-05-31 12:55:58,922 INFO o.a.j.u.SSLManager: KeyStore created OK
+2021-05-31 12:55:58,922 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2021-05-31 12:56:00,125 INFO o.a.j.r.Summariser: summary +      1 in 00:00:02 =    0.5/s Avg:  1929 Min:  1929 Max:  1929 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2021-05-31 12:56:01,129 INFO o.a.j.t.JMeterThread: Thread started: L1_iSource_AuctionAnalyze-Job 1-2
+2021-05-31 12:56:01,131 INFO o.a.j.c.LoopController: iterationStart called on Suppliers_BidReco with source org.apache.jmeter.control.LoopController@2c259fc8 and iteration 1
+2021-05-31 12:56:01,131 INFO o.a.j.c.LoopController: iterationStart called on Suppliers_Bidding with source org.apache.jmeter.control.LoopController@2c259fc8 and iteration 1
+2021-05-31 12:56:01,131 INFO o.a.j.c.LoopController: iterationStart called on 5.6# Questions_Text with source org.apache.jmeter.control.LoopController@2c259fc8 and iteration 1
+2021-05-31 12:56:04,192 INFO o.a.j.t.JMeterThread: Thread started: L1_iSource_AuctionAnalyze-Job 1-3
+2021-05-31 12:56:04,193 INFO o.a.j.c.LoopController: iterationStart called on Suppliers_BidReco with source org.apache.jmeter.control.LoopController@6b1f2074 and iteration 1
+2021-05-31 12:56:04,193 INFO o.a.j.c.LoopController: iterationStart called on Suppliers_Bidding with source org.apache.jmeter.control.LoopController@6b1f2074 and iteration 1
+2021-05-31 12:56:04,193 INFO o.a.j.c.LoopController: iterationStart called on 5.6# Questions_Text with source org.apache.jmeter.control.LoopController@6b1f2074 and iteration 1
+2021-05-31 12:56:07,243 INFO o.a.j.t.JMeterThread: Thread started: L1_iSource_AuctionAnalyze-Job 1-4
+2021-05-31 12:56:07,244 INFO o.a.j.c.LoopController: iterationStart called on Suppliers_BidReco with source org.apache.jmeter.control.LoopController@79df9d8d and iteration 1
+2021-05-31 12:56:07,244 INFO o.a.j.c.LoopController: iterationStart called on Suppliers_Bidding with source org.apache.jmeter.control.LoopController@79df9d8d and iteration 1
+2021-05-31 12:56:07,244 INFO o.a.j.c.LoopController: iterationStart called on 5.6# Questions_Text with source org.apache.jmeter.control.LoopController@79df9d8d and iteration 1
+2021-05-31 12:56:10,277 INFO o.a.j.t.JMeterThread: Thread started: L1_iSource_AuctionAnalyze-Job 1-5
+2021-05-31 12:56:10,278 INFO o.a.j.c.LoopController: iterationStart called on Suppliers_BidReco with source org.apache.jmeter.control.LoopController@4505342e and iteration 1
+2021-05-31 12:56:10,278 INFO o.a.j.c.LoopController: iterationStart called on Suppliers_Bidding with source org.apache.jmeter.control.LoopController@4505342e and iteration 1
+2021-05-31 12:56:10,278 INFO o.a.j.c.LoopController: iterationStart called on 5.6# Questions_Text with source org.apache.jmeter.control.LoopController@4505342e and iteration 1
+2021-05-31 12:56:13,325 INFO o.a.j.t.JMeterThread: Thread started: L1_iSource_AuctionAnalyze-Job 1-6
+2021-05-31 12:56:13,326 INFO o.a.j.c.LoopController: iterationStart called on Suppliers_BidReco with source org.apache.jmeter.control.LoopController@11a8bdf3 and iteration 1
+2021-05-31 12:56:13,326 INFO o.a.j.c.LoopController: iterationStart called on Suppliers_Bidding with source org.apache.jmeter.control.LoopController@11a8bdf3 and iteration 1
+2021-05-31 12:56:13,326 INFO o.a.j.c.LoopController: iterationStart called on 5.6# Questions_Text with source org.apache.jmeter.control.LoopController@11a8bdf3 and iteration 1
+2021-05-31 12:56:16,353 INFO o.a.j.t.JMeterThread: Thread started: L1_iSource_AuctionAnalyze-Job 1-7
+2021-05-31 12:56:16,358 INFO o.a.j.c.LoopController: iterationStart called on Suppliers_BidReco with source org.apache.jmeter.control.LoopController@64e4e537 and iteration 1
+2021-05-31 12:56:16,358 INFO o.a.j.c.LoopController: iterationStart called on Suppliers_Bidding with source org.apache.jmeter.control.LoopController@64e4e537 and iteration 1
+2021-05-31 12:56:16,358 INFO o.a.j.c.LoopController: iterationStart called on 5.6# Questions_Text with source org.apache.jmeter.control.LoopController@64e4e537 and iteration 1
+2021-05-31 12:56:19,388 INFO o.a.j.t.JMeterThread: Thread started: L1_iSource_AuctionAnalyze-Job 1-8
+2021-05-31 12:56:19,389 INFO o.a.j.c.LoopController: iterationStart called on Suppliers_BidReco with source org.apache.jmeter.control.LoopController@3575d568 and iteration 1
+2021-05-31 12:56:19,389 INFO o.a.j.c.LoopController: iterationStart called on Suppliers_Bidding with source org.apache.jmeter.control.LoopController@3575d568 and iteration 1
+2021-05-31 12:56:19,389 INFO o.a.j.c.LoopController: iterationStart called on 5.6# Questions_Text with source org.apache.jmeter.control.LoopController@3575d568 and iteration 1
+2021-05-31 12:56:22,419 INFO o.a.j.t.JMeterThread: Thread started: L1_iSource_AuctionAnalyze-Job 1-9
+2021-05-31 12:56:22,420 INFO o.a.j.c.LoopController: iterationStart called on Suppliers_BidReco with source org.apache.jmeter.control.LoopController@7a541097 and iteration 1
+2021-05-31 12:56:22,420 INFO o.a.j.c.LoopController: iterationStart called on Suppliers_Bidding with source org.apache.jmeter.control.LoopController@7a541097 and iteration 1
+2021-05-31 12:56:22,420 INFO o.a.j.c.LoopController: iterationStart called on 5.6# Questions_Text with source org.apache.jmeter.control.LoopController@7a541097 and iteration 1
+2021-05-31 12:56:25,450 INFO o.a.j.t.JMeterThread: Thread started: L1_iSource_AuctionAnalyze-Job 1-10
+2021-05-31 12:56:25,453 INFO o.a.j.c.LoopController: iterationStart called on Suppliers_BidReco with source org.apache.jmeter.control.LoopController@73d7a0ad and iteration 1
+2021-05-31 12:56:25,453 INFO o.a.j.c.LoopController: iterationStart called on Suppliers_Bidding with source org.apache.jmeter.control.LoopController@73d7a0ad and iteration 1
+2021-05-31 12:56:25,453 INFO o.a.j.c.LoopController: iterationStart called on 5.6# Questions_Text with source org.apache.jmeter.control.LoopController@73d7a0ad and iteration 1
+2021-05-31 12:56:30,008 INFO o.a.j.r.Summariser: summary +    160 in 00:00:30 =    5.4/s Avg:   624 Min:   199 Max:  2001 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2021-05-31 12:56:30,009 INFO o.a.j.r.Summariser: summary =    161 in 00:00:32 =    5.0/s Avg:   632 Min:   199 Max:  2001 Err:     0 (0.00%)
+2021-05-31 12:57:03,045 INFO o.a.j.r.Summariser: summary +     85 in 00:00:33 =    2.6/s Avg:  2041 Min:   296 Max: 20669 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2021-05-31 12:57:03,046 INFO o.a.j.r.Summariser: summary =    246 in 00:01:05 =    3.8/s Avg:  1119 Min:   199 Max: 20669 Err:     0 (0.00%)
+2021-05-31 12:57:30,077 INFO o.a.j.r.Summariser: summary +    100 in 00:00:27 =    3.7/s Avg:  2866 Min:   344 Max: 20939 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2021-05-31 12:57:30,078 INFO o.a.j.r.Summariser: summary =    346 in 00:01:32 =    3.8/s Avg:  1624 Min:   199 Max: 20939 Err:     0 (0.00%)
+2021-05-31 12:57:55,282 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: L1_iSource_AuctionAnalyze-Job 1-1
+2021-05-31 12:57:55,283 INFO o.a.j.t.JMeterThread: Thread finished: L1_iSource_AuctionAnalyze-Job 1-1
+2021-05-31 12:58:00,319 INFO o.a.j.r.Summariser: summary +    128 in 00:00:30 =    4.2/s Avg:  1588 Min:   337 Max: 62065 Err:     1 (0.78%) Active: 9 Started: 10 Finished: 1
+2021-05-31 12:58:00,319 INFO o.a.j.r.Summariser: summary =    474 in 00:02:02 =    3.9/s Avg:  1614 Min:   199 Max: 62065 Err:     1 (0.21%)
+2021-05-31 12:58:10,275 INFO o.a.j.s.FileServer: Stored: D:\apache-jmeter-5.1\apache-jmeter-5.1\bin\excel\isource\buyer_5_items.xlsx
+2021-05-31 12:58:31,858 INFO o.a.j.r.Summariser: summary +     32 in 00:00:32 =    1.0/s Avg:  2696 Min:   279 Max: 19002 Err:     0 (0.00%) Active: 9 Started: 10 Finished: 1
+2021-05-31 12:58:31,859 INFO o.a.j.r.Summariser: summary =    506 in 00:02:34 =    3.3/s Avg:  1683 Min:   199 Max: 62065 Err:     1 (0.20%)
+2021-05-31 12:58:48,604 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: L1_iSource_AuctionAnalyze-Job 1-3
+2021-05-31 12:58:48,604 INFO o.a.j.t.JMeterThread: Thread finished: L1_iSource_AuctionAnalyze-Job 1-3
+2021-05-31 12:58:49,438 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: L1_iSource_AuctionAnalyze-Job 1-7
+2021-05-31 12:58:49,438 INFO o.a.j.t.JMeterThread: Thread finished: L1_iSource_AuctionAnalyze-Job 1-7
+2021-05-31 12:58:49,499 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: L1_iSource_AuctionAnalyze-Job 1-4
+2021-05-31 12:58:49,500 INFO o.a.j.t.JMeterThread: Thread finished: L1_iSource_AuctionAnalyze-Job 1-4
+2021-05-31 12:59:00,371 INFO o.a.j.r.Summariser: summary +     33 in 00:00:29 =    1.2/s Avg:  8993 Min:   606 Max: 60653 Err:     3 (9.09%) Active: 6 Started: 10 Finished: 4
+2021-05-31 12:59:00,372 INFO o.a.j.r.Summariser: summary =    539 in 00:03:02 =    3.0/s Avg:  2130 Min:   199 Max: 62065 Err:     4 (0.74%)
+2021-05-31 12:59:01,219 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: L1_iSource_AuctionAnalyze-Job 1-8
+2021-05-31 12:59:01,219 INFO o.a.j.t.JMeterThread: Thread finished: L1_iSource_AuctionAnalyze-Job 1-8
+2021-05-31 12:59:30,529 INFO o.a.j.r.Summariser: summary +     74 in 00:00:30 =    2.5/s Avg:  2137 Min:   373 Max: 60874 Err:     1 (1.35%) Active: 5 Started: 10 Finished: 5
+2021-05-31 12:59:30,530 INFO o.a.j.r.Summariser: summary =    613 in 00:03:33 =    2.9/s Avg:  2131 Min:   199 Max: 62065 Err:     5 (0.82%)
+2021-05-31 12:59:42,808 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: L1_iSource_AuctionAnalyze-Job 1-2
+2021-05-31 12:59:42,808 INFO o.a.j.t.JMeterThread: Thread finished: L1_iSource_AuctionAnalyze-Job 1-2
+2021-05-31 13:00:01,346 INFO o.a.j.r.Summariser: summary +     53 in 00:00:31 =    1.7/s Avg:  2854 Min:   396 Max: 60773 Err:     1 (1.89%) Active: 4 Started: 10 Finished: 6
+2021-05-31 13:00:01,346 INFO o.a.j.r.Summariser: summary =    666 in 00:04:03 =    2.7/s Avg:  2189 Min:   199 Max: 62065 Err:     6 (0.90%)
+2021-05-31 13:00:32,283 INFO o.a.j.r.Summariser: summary +     36 in 00:00:31 =    1.2/s Avg:  1417 Min:   412 Max:  4030 Err:     0 (0.00%) Active: 4 Started: 10 Finished: 6
+2021-05-31 13:00:32,284 INFO o.a.j.r.Summariser: summary =    702 in 00:04:34 =    2.6/s Avg:  2149 Min:   199 Max: 62065 Err:     6 (0.85%)
+2021-05-31 13:00:38,864 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``String totalRecords = vars.get("totalRecords"); String perpage = vars.get("perpa . . . '' : Typed variable declaration : Method Invocation Integer.parseInt
+2021-05-31 13:00:38,864 WARN o.a.j.e.BeanShellPostProcessor: Problem in BeanShell script: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``String totalRecords = vars.get("totalRecords"); String perpage = vars.get("perpa . . . '' : Typed variable declaration : Method Invocation Integer.parseInt
+2021-05-31 13:00:42,823 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``String totalRecords = vars.get("totalRecords"); String perpage = vars.get("perpa . . . '' : Typed variable declaration : Method Invocation Integer.parseInt
+2021-05-31 13:00:42,823 WARN o.a.j.e.BeanShellPostProcessor: Problem in BeanShell script: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``String totalRecords = vars.get("totalRecords"); String perpage = vars.get("perpa . . . '' : Typed variable declaration : Method Invocation Integer.parseInt
+2021-05-31 13:00:58,072 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: L1_iSource_AuctionAnalyze-Job 1-10
+2021-05-31 13:00:58,072 INFO o.a.j.t.JMeterThread: Thread finished: L1_iSource_AuctionAnalyze-Job 1-10
+2021-05-31 13:00:58,477 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: L1_iSource_AuctionAnalyze-Job 1-5
+2021-05-31 13:00:58,477 INFO o.a.j.t.JMeterThread: Thread finished: L1_iSource_AuctionAnalyze-Job 1-5
+2021-05-31 13:01:02,557 INFO o.a.j.r.Summariser: summary +     13 in 00:00:30 =    0.4/s Avg: 12833 Min:   782 Max: 61916 Err:     2 (15.38%) Active: 2 Started: 10 Finished: 8
+2021-05-31 13:01:02,558 INFO o.a.j.r.Summariser: summary =    715 in 00:05:05 =    2.3/s Avg:  2343 Min:   199 Max: 62065 Err:     8 (1.12%)
+2021-05-31 13:01:31,608 INFO o.a.j.r.Summariser: summary +      6 in 00:00:29 =    0.2/s Avg:  7328 Min:   971 Max: 17905 Err:     0 (0.00%) Active: 2 Started: 10 Finished: 8
+2021-05-31 13:01:31,608 INFO o.a.j.r.Summariser: summary =    721 in 00:05:34 =    2.2/s Avg:  2385 Min:   199 Max: 62065 Err:     8 (1.11%)
+2021-05-31 13:02:05,542 INFO o.a.j.r.Summariser: summary +     11 in 00:00:34 =    0.3/s Avg:  5014 Min:  1116 Max: 14633 Err:     0 (0.00%) Active: 2 Started: 10 Finished: 8
+2021-05-31 13:02:05,543 INFO o.a.j.r.Summariser: summary =    732 in 00:06:08 =    2.0/s Avg:  2424 Min:   199 Max: 62065 Err:     8 (1.09%)
+2021-05-31 13:03:00,141 INFO o.a.j.r.Summariser: summary +     40 in 00:00:55 =    0.7/s Avg:  2884 Min:   381 Max: 15228 Err:     0 (0.00%) Active: 2 Started: 10 Finished: 8
+2021-05-31 13:03:00,142 INFO o.a.j.r.Summariser: summary =    772 in 00:07:02 =    1.8/s Avg:  2448 Min:   199 Max: 62065 Err:     8 (1.04%)
+2021-05-31 13:03:08,671 INFO o.a.j.s.FileServer: Stored: D:\apache-jmeter-5.1\apache-jmeter-5.1\bin\excel\isource\suppliers_partner.csv Alias: D:\apache-jmeter-5.1\apache-jmeter-5.1\bin\excel\isource\suppliers_partner.csv@340441475
+2021-05-31 13:03:32,169 INFO o.a.j.r.Summariser: summary +     20 in 00:00:32 =    0.6/s Avg:  1305 Min:   375 Max:  3642 Err:     0 (0.00%) Active: 2 Started: 10 Finished: 8
+2021-05-31 13:03:32,170 INFO o.a.j.r.Summariser: summary =    792 in 00:07:34 =    1.7/s Avg:  2419 Min:   199 Max: 62065 Err:     8 (1.01%)
+2021-05-31 13:04:01,775 INFO o.a.j.r.Summariser: summary +     11 in 00:00:30 =    0.4/s Avg:  4070 Min:   297 Max: 14967 Err:     0 (0.00%) Active: 2 Started: 10 Finished: 8
+2021-05-31 13:04:01,775 INFO o.a.j.r.Summariser: summary =    803 in 00:08:04 =    1.7/s Avg:  2442 Min:   199 Max: 62065 Err:     8 (1.00%)
+2021-05-31 13:04:30,250 INFO o.a.j.r.Summariser: summary +     23 in 00:00:28 =    0.8/s Avg:  2061 Min:   454 Max: 19223 Err:     0 (0.00%) Active: 2 Started: 10 Finished: 8
+2021-05-31 13:04:30,250 INFO o.a.j.r.Summariser: summary =    826 in 00:08:32 =    1.6/s Avg:  2431 Min:   199 Max: 62065 Err:     8 (0.97%)
+2021-05-31 13:05:30,233 INFO o.a.j.r.Summariser: summary +     39 in 00:01:00 =    0.7/s Avg:  2346 Min:   278 Max:  8620 Err:     0 (0.00%) Active: 2 Started: 10 Finished: 8
+2021-05-31 13:05:30,233 INFO o.a.j.r.Summariser: summary =    865 in 00:09:32 =    1.5/s Avg:  2427 Min:   199 Max: 62065 Err:     8 (0.92%)
+2021-05-31 13:07:00,986 INFO o.a.j.r.Summariser: summary +     20 in 00:01:31 =    0.2/s Avg:  4109 Min:   278 Max: 24182 Err:     0 (0.00%) Active: 2 Started: 10 Finished: 8
+2021-05-31 13:07:00,986 INFO o.a.j.r.Summariser: summary =    885 in 00:11:03 =    1.3/s Avg:  2465 Min:   199 Max: 62065 Err:     8 (0.90%)
+2021-05-31 13:07:33,767 INFO o.a.j.r.Summariser: summary +     15 in 00:00:33 =    0.5/s Avg:  3032 Min:   275 Max: 10043 Err:     0 (0.00%) Active: 2 Started: 10 Finished: 8
+2021-05-31 13:07:33,768 INFO o.a.j.r.Summariser: summary =    900 in 00:11:36 =    1.3/s Avg:  2475 Min:   199 Max: 62065 Err:     8 (0.89%)
+2021-05-31 13:08:01,673 INFO o.a.j.r.Summariser: summary +     24 in 00:00:28 =    0.9/s Avg:  2058 Min:   281 Max:  6726 Err:     0 (0.00%) Active: 2 Started: 10 Finished: 8
+2021-05-31 13:08:01,674 INFO o.a.j.r.Summariser: summary =    924 in 00:12:04 =    1.3/s Avg:  2464 Min:   199 Max: 62065 Err:     8 (0.87%)
+2021-05-31 13:08:30,668 INFO o.a.j.r.Summariser: summary +     16 in 00:00:29 =    0.6/s Avg:  1809 Min:   289 Max:  8539 Err:     0 (0.00%) Active: 2 Started: 10 Finished: 8
+2021-05-31 13:08:30,668 INFO o.a.j.r.Summariser: summary =    940 in 00:12:33 =    1.2/s Avg:  2453 Min:   199 Max: 62065 Err:     8 (0.85%)
+2021-05-31 13:09:30,051 INFO o.a.j.r.Summariser: summary +     44 in 00:00:59 =    0.7/s Avg:  1934 Min:   275 Max: 10422 Err:     0 (0.00%) Active: 2 Started: 10 Finished: 8
+2021-05-31 13:09:30,051 INFO o.a.j.r.Summariser: summary =    984 in 00:13:32 =    1.2/s Avg:  2430 Min:   199 Max: 62065 Err:     8 (0.81%)
+2021-05-31 13:10:00,006 INFO o.a.j.r.Summariser: summary +     21 in 00:00:30 =    0.7/s Avg:  2275 Min:   271 Max: 10346 Err:     0 (0.00%) Active: 2 Started: 10 Finished: 8
+2021-05-31 13:10:00,007 INFO o.a.j.r.Summariser: summary =   1005 in 00:14:02 =    1.2/s Avg:  2426 Min:   199 Max: 62065 Err:     8 (0.80%)
+2021-05-31 13:11:04,635 INFO o.a.j.r.Summariser: summary +      9 in 00:01:05 =    0.1/s Avg:  2860 Min:   293 Max: 10146 Err:     0 (0.00%) Active: 2 Started: 10 Finished: 8
+2021-05-31 13:11:04,635 INFO o.a.j.r.Summariser: summary =   1014 in 00:15:07 =    1.1/s Avg:  2430 Min:   199 Max: 62065 Err:     8 (0.79%)
+2021-05-31 13:11:35,497 INFO o.a.j.r.Summariser: summary +     20 in 00:00:31 =    0.6/s Avg:  1841 Min:   274 Max:  8172 Err:     0 (0.00%) Active: 2 Started: 10 Finished: 8
+2021-05-31 13:11:35,498 INFO o.a.j.r.Summariser: summary =   1034 in 00:15:38 =    1.1/s Avg:  2419 Min:   199 Max: 62065 Err:     8 (0.77%)
+2021-05-31 13:12:00,496 INFO o.a.j.r.Summariser: summary +     20 in 00:00:25 =    0.8/s Avg:  2913 Min:   293 Max:  9228 Err:     0 (0.00%) Active: 2 Started: 10 Finished: 8
+2021-05-31 13:12:00,497 INFO o.a.j.r.Summariser: summary =   1054 in 00:16:03 =    1.1/s Avg:  2428 Min:   199 Max: 62065 Err:     8 (0.76%)
+2021-05-31 13:12:35,586 INFO o.a.j.r.Summariser: summary +     10 in 00:00:35 =    0.3/s Avg:  1984 Min:   312 Max:  6164 Err:     0 (0.00%) Active: 2 Started: 10 Finished: 8
+2021-05-31 13:12:35,587 INFO o.a.j.r.Summariser: summary =   1064 in 00:16:38 =    1.1/s Avg:  2424 Min:   199 Max: 62065 Err:     8 (0.75%)
+2021-05-31 13:13:00,187 INFO o.a.j.r.Summariser: summary +     22 in 00:00:25 =    0.9/s Avg:  1229 Min:   310 Max:  2904 Err:     0 (0.00%) Active: 2 Started: 10 Finished: 8
+2021-05-31 13:13:00,187 INFO o.a.j.r.Summariser: summary =   1086 in 00:17:02 =    1.1/s Avg:  2400 Min:   199 Max: 62065 Err:     8 (0.74%)
+2021-05-31 13:13:30,698 INFO o.a.j.r.Summariser: summary +     19 in 00:00:31 =    0.6/s Avg:  3418 Min:   378 Max: 14110 Err:     0 (0.00%) Active: 2 Started: 10 Finished: 8
+2021-05-31 13:13:30,698 INFO o.a.j.r.Summariser: summary =   1105 in 00:17:33 =    1.0/s Avg:  2417 Min:   199 Max: 62065 Err:     8 (0.72%)
+2021-05-31 13:14:01,013 INFO o.a.j.r.Summariser: summary +     27 in 00:00:30 =    0.9/s Avg:  1290 Min:   353 Max:  2597 Err:     0 (0.00%) Active: 2 Started: 10 Finished: 8
+2021-05-31 13:14:01,013 INFO o.a.j.r.Summariser: summary =   1132 in 00:18:03 =    1.0/s Avg:  2391 Min:   199 Max: 62065 Err:     8 (0.71%)
+2021-05-31 13:15:00,165 INFO o.a.j.r.Summariser: summary +     11 in 00:00:59 =    0.2/s Avg:  2021 Min:   846 Max:  6434 Err:     0 (0.00%) Active: 2 Started: 10 Finished: 8
+2021-05-31 13:15:00,165 INFO o.a.j.r.Summariser: summary =   1143 in 00:19:02 =    1.0/s Avg:  2387 Min:   199 Max: 62065 Err:     8 (0.70%)
+2021-05-31 13:15:25,411 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: L1_iSource_AuctionAnalyze-Job 1-9
+2021-05-31 13:15:25,411 INFO o.a.j.t.JMeterThread: Thread finished: L1_iSource_AuctionAnalyze-Job 1-9
+2021-05-31 13:15:35,763 INFO o.a.j.r.Summariser: summary +     25 in 00:00:36 =    0.7/s Avg:  1961 Min:   373 Max: 10942 Err:     1 (4.00%) Active: 1 Started: 10 Finished: 9
+2021-05-31 13:15:35,764 INFO o.a.j.r.Summariser: summary =   1168 in 00:19:38 =    1.0/s Avg:  2378 Min:   199 Max: 62065 Err:     9 (0.77%)
+2021-05-31 13:15:36,203 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: L1_iSource_AuctionAnalyze-Job 1-6
+2021-05-31 13:15:36,204 INFO o.a.j.t.JMeterThread: Thread finished: L1_iSource_AuctionAnalyze-Job 1-6
+2021-05-31 13:15:36,206 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2021-05-31 13:15:36,207 INFO o.a.j.s.FileServer: Close: D:\apache-jmeter-5.1\apache-jmeter-5.1\bin\excel\isource\Partner_ZCS_Users.csv
+2021-05-31 13:15:36,207 INFO o.a.j.s.FileServer: Close: D:\apache-jmeter-5.1\apache-jmeter-5.1\bin\excel\isource\suppliers_partner.csv@340441475
+2021-05-31 13:15:36,211 INFO o.a.j.r.Summariser: summary +      1 in 00:00:00 =    2.2/s Avg:   439 Min:   439 Max:   439 Err:     1 (100.00%) Active: 0 Started: 10 Finished: 10
+2021-05-31 13:15:36,213 INFO o.a.j.r.Summariser: summary =   1169 in 00:19:38 =    1.0/s Avg:  2376 Min:   199 Max: 62065 Err:    10 (0.86%)
+2021-05-31 13:15:36,213 INFO o.a.j.JMeter: Generating Dashboard
+2021-05-31 13:15:36,213 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2021-05-31 13:15:36,222 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2021-05-31 13:15:36,352 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2021-05-31 13:15:36,352 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2021-05-31 13:15:36,354 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2021-05-31 13:15:36,354 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2021-05-31 13:15:36,362 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2021-05-31 13:15:36,366 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2021-05-31 13:15:36,366 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2021-05-31 13:15:36,366 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2021-05-31 13:15:36,386 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2021-05-31 13:15:36,386 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2021-05-31 13:15:36,386 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2021-05-31 13:15:36,387 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2021-05-31 13:15:36,395 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2021-05-31 13:15:36,395 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 8183 samples
+2021-05-31 13:15:36,395 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2021-05-31 13:15:36,395 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2021-05-31 13:15:36,395 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2021-05-31 13:15:36,411 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2021-05-31 13:15:36,414 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2021-05-31 13:15:36,416 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2021-05-31 13:15:36,456 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2021-05-31 13:15:36,457 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2021-05-31 13:15:36,459 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2021-05-31 13:15:36,462 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2021-05-31 13:15:36,464 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 20265 samples
+2021-05-31 13:15:36,464 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 4053 samples
+2021-05-31 13:15:36,464 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 1351 samples
+2021-05-31 13:15:36,465 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 1351 samples produced in 225ms on channel 0
+2021-05-31 13:15:36,465 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2021-05-31 13:15:36,466 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2021-05-31 13:15:36,466 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2021-05-31 13:15:36,467 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2021-05-31 13:15:36,468 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2021-05-31 13:15:36,469 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to C:\xampp\htdocs\PerformancePostgres\L1_iSource_10_AuctionAnalyze_2021-05-31_6\statistics.json
+2021-05-31 13:15:36,598 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2021-05-31 13:15:36,601 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: C:\xampp\htdocs\PerformancePostgres\L1_iSource_10_AuctionAnalyze_2021-05-31_6
+2021-05-31 13:15:37,240 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: C:\xampp\htdocs\PerformancePostgres\L1_iSource_10_AuctionAnalyze_2021-05-31_6, creating folder structure
+2021-05-31 13:15:37,244 INFO o.a.j.r.d.TemplateVisitor: Copying folder from 'D:\apache-jmeter-5.1\apache-jmeter-5.1\bin\report-template' to 'C:\xampp\htdocs\PerformancePostgres\L1_iSource_10_AuctionAnalyze_2021-05-31_6', got message:[C:\xampp\htdocs\PerformancePostgres\L1_iSource_10_AuctionAnalyze_2021-05-31_6\statistics.json], found non empty folder with following content {}, will be ignored
+2021-05-31 13:15:38,209 INFO o.a.j.JMeter: Dashboard generated

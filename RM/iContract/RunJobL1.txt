@@ -1,0 +1,81 @@
+d:
+cd D:\apache-jmeter-5.1\apache-jmeter-5.1\bin
+
+
+CRMS
+
+jmeter -Jmeter.reportgenerator.report_title="L1_CRMS_Currency conversion" -n -t D:\Upstream\CRMS\L1_CRMS_Currency conversion.jmx -l D:\JTL\L1_CRMS_Currency conversion%date:~10%%date:~4,2%%date:~7,2%%time:~0,2%%time:~3,2%.jtl -j D:\JTL\L1_CRMS_Currency conversion%date:~10%%date:~4,2%%date:~7,2%%time:~0,2%%time:~3,2%.log -e -o C:\xampp\htdocs\performance\L1_CRMS_Currency conversion%date:~10%%date:~4,2%%date:~7,2%%time:~0,2%%time:~3,2% && mkdir L1_CRMS_Currency conversion%date:~10%%date:~4,2%%date:~7,2%%time:~0,2%%time:~3,2%
+
+jmeter -Jmeter.reportgenerator.report_title="L1_CRMS_Currency conversion" -Jthread=%thread% -n -t D:\Upstream\CRMS\L1_CRMS_Currency conversion.jmx -l D:\JTL\L1_CRMS_%thread%_Currency conversion_%BUILD_TIMESTAMP%_%BUILD_ID%.jtl -j D:\JTL\L1_CRMS_%thread%_Currency conversion_%BUILD_TIMESTAMP%_%BUILD_ID%.log -e -o C:\xampp\htdocs\performance\L1_CRMS_%thread%_Currency conversion_%BUILD_TIMESTAMP%_%BUILD_ID% && mkdir L1_CRMS_%thread%_Currency conversion_%BUILD_TIMESTAMP%_%BUILD_ID%
+
+jmeter -Jmeter.reportgenerator.report_title="L1_CRMS_ExportReportMultipleChartSheets" -Jthread=%thread% -n -t D:\Upstream\CRMS\L1_CRMS_ExportReportMultipleChartSheets.jmx -l D:\JTL\L1_CRMS_%thread%_ExportReportMultipleChartSheets_%BUILD_TIMESTAMP%_%BUILD_ID%.jtl -j D:\JTL\L1_CRMS_%thread%_ExportReportMultipleChartSheets_%BUILD_TIMESTAMP%_%BUILD_ID%.log -e -o C:\xampp\htdocs\performance\L1_CRMS_%thread%_ExportReportMultipleChartSheets_%BUILD_TIMESTAMP%_%BUILD_ID% && mkdir L1_CRMS_%thread%_ExportReportMultipleChartSheets_%BUILD_TIMESTAMP%_%BUILD_ID%
+
+jmeter -Jmeter.reportgenerator.report_title="L1_CRMS_NavigateBetweenMainSheetAndChartSheet" -Jthread=%thread% -n -t D:\Upstream\CRMS\L1_CRMS_NavigateBetweenMainSheetAndChartSheet.jmx -l D:\JTL\L1_CRMS_NavigateBetweenMainSheetAndChartSheet_%BUILD_TIMESTAMP%_%BUILD_ID%.jtl -j D:\JTL\L1_CRMS_NavigateBetweenMainSheetAndChartSheet_%BUILD_TIMESTAMP%_%BUILD_ID%.log -e -o C:\xampp\htdocs\performance\L1_CRMS_NavigateBetweenMainSheetAndChartSheet_%BUILD_TIMESTAMP%_%BUILD_ID% && mkdir L1_CRMS_NavigateBetweenMainSheetAndChartSheet_%BUILD_TIMESTAMP%_%BUILD_ID%
+
+
+
+
+iAnalyze
+
+
+jmeter -Jmeter.reportgenerator.report_title="L1_iAnalyze_AddChartsDrilldownDrillacross" -Jthread=%thread% -n -t D:\Upstream\iAnalzye\L1_iAnalyze_AddChartsDrilldownDrillacross.jmx -l D:\JTL\L1_iAnalyze_%thread%_AddChartsDrilldownDrillacross_%BUILD_TIMESTAMP%_%BUILD_ID%.jtl -j D:\JTL\L1_iAnalyze_%thread%_AddChartsDrilldownDrillacross_%BUILD_TIMESTAMP%_%BUILD_ID%.log -e -o C:\xampp\htdocs\performance\L1_iAnalyze_%thread%_AddChartsDrilldownDrillacross_%BUILD_TIMESTAMP%_%BUILD_ID% && mkdir L1_iAnalyze_%thread%_AddChartsDrilldownDrillacross_%BUILD_TIMESTAMP%_%BUILD_ID%
+
+jmeter -Jmeter.reportgenerator.report_title="L1_iAnalyze_AddChartsOnSpendDashboard" -Jthread=%thread% -n -t D:\Upstream\iAnalzye\L1_iAnalyze_AddChartsOnSpendDashboard.jmx -l D:\JTL\L1_iAnalyze_%thread%_AddChartsOnSpendDashboard_%BUILD_TIMESTAMP%_%BUILD_ID%.jtl -j D:\JTL\L1_iAnalyze_%thread%_AddChartsOnSpendDashboard_%BUILD_TIMESTAMP%_%BUILD_ID%.log -e -o C:\xampp\htdocs\performance\L1_iAnalyze_%thread%_AddChartsOnSpendDashboard_%BUILD_TIMESTAMP%_%BUILD_ID% && mkdir L1_iAnalyze_%thread%_AddChartsOnSpendDashboard_%BUILD_TIMESTAMP%_%BUILD_ID%
+
+jmeter -Jmeter.reportgenerator.report_title="L1_iAnalyze_AddChartsToVerifyScrollChartType" -Jthread=%thread% -n -t D:\Upstream\iAnalzye\L1_iAnalyze_AddChartsToVerifyScrollChartType.jmx -l D:\JTL\L1_iAnalyze_%thread%_AddChartsToVerifyScrollChartType_%BUILD_TIMESTAMP%_%BUILD_ID%.jtl -j D:\JTL\L1_iAnalyze_%thread%_AddChartsToVerifyScrollChartType_%BUILD_TIMESTAMP%_%BUILD_ID%.log -e -o C:\xampp\htdocs\performance\L1_iAnalyze_%thread%_AddChartsToVerifyScrollChartType_%BUILD_TIMESTAMP%_%BUILD_ID% && mkdir L1_iAnalyze_%thread%_AddChartsToVerifyScrollChartType_%BUILD_TIMESTAMP%_%BUILD_ID%
+
+jmeter -Jmeter.reportgenerator.report_title="L1_iAnalyze_ExportCOC" -Jthread=%thread% -n -t D:\Upstream\iAnalzye\L1_iAnalyze_ExportCOC.jmx -l D:\JTL\L1_iAnalyze_%thread%_ExportCOC_%BUILD_TIMESTAMP%_%BUILD_ID%.jtl -j D:\JTL\L1_iAnalyze_%thread%_ExportCOC_%BUILD_TIMESTAMP%_%BUILD_ID%.log -e -o C:\xampp\htdocs\performance\L1_iAnalyze_%thread%_ExportCOC_%BUILD_TIMESTAMP%_%BUILD_ID% && mkdir L1_iAnalyze_%thread%_ExportCOC_%BUILD_TIMESTAMP%_%BUILD_ID%
+
+jmeter -Jmeter.reportgenerator.report_title="L1_iAnalyze_ExportCON" -Jthread=%thread% -n -t D:\Upstream\iAnalzye\L1_iAnalyze_ExportCON.jmx -l D:\JTL\L1_iAnalyze_%thread%_ExportCON_%BUILD_TIMESTAMP%_%BUILD_ID%.jtl -j D:\JTL\L1_iAnalyze_%thread%_ExportCON_%BUILD_TIMESTAMP%_%BUILD_ID%.log -e -o C:\xampp\htdocs\performance\L1_iAnalyze_%thread%_ExportCON_%BUILD_TIMESTAMP%_%BUILD_ID% && mkdir L1_iAnalyze_%thread%_ExportCON_%BUILD_TIMESTAMP%_%BUILD_ID%
+
+jmeter -Jmeter.reportgenerator.report_title="L1_iAnalyze_FiltersInChartsDashboard" -Jthread=%thread% -n -t D:\Upstream\iAnalzye\L1_iAnalyze_FiltersInChartsDashboard.jmx -l D:\JTL\L1_iAnalyze_%thread%_FiltersInChartsDashboard_%BUILD_TIMESTAMP%_%BUILD_ID%.jtl -j D:\JTL\L1_iAnalyze_%thread%_FiltersInChartsDashboard_%BUILD_TIMESTAMP%_%BUILD_ID%.log -e -o C:\xampp\htdocs\performance\L1_iAnalyze_%thread%_FiltersInChartsDashboard_%BUILD_TIMESTAMP%_%BUILD_ID% && mkdir L1_iAnalyze_%thread%_FiltersInChartsDashboard_%BUILD_TIMESTAMP%_%BUILD_ID%
+
+jmeter -Jmeter.reportgenerator.report_title="L1_iAnalyze_MultiAxisChart" -Jthread=%thread% -n -t D:\Upstream\iAnalzye\L1_iAnalyze_MultiAxisChart.jmx -l D:\JTL\L1_iAnalyze_%thread%_MultiAxisChart_%BUILD_TIMESTAMP%_%BUILD_ID%.jtl -j D:\JTL\L1_iAnalyze_%thread%_MultiAxisChart_%BUILD_TIMESTAMP%_%BUILD_ID%.log -e -o C:\xampp\htdocs\performance\L1_iAnalyze_%thread%_MultiAxisChart_%BUILD_TIMESTAMP%_%BUILD_ID% && mkdir L1_iAnalyze_%thread%_MultiAxisChart_%BUILD_TIMESTAMP%_%BUILD_ID%
+
+
+
+
+iContract
+
+
+jmeter -Jmeter.reportgenerator.report_title="L1_iContract_CreateAmendmentRepository" -Jthread=%thread% -n -t D:\Upstream\iContract\L1_iContract_CreateAmendmentRepository.jmx -l D:\JTL\L1_iContract_%thread%_CreateAmendmentRepository_%BUILD_TIMESTAMP%_%BUILD_ID%.jtl -j D:\JTL\L1_iContract_%thread%_CreateAmendmentRepository_%BUILD_TIMESTAMP%_%BUILD_ID%.log -e -o C:\xampp\htdocs\performance\L1_iContract_%thread%_CreateAmendmentRepository_%BUILD_TIMESTAMP%_%BUILD_ID% && mkdir L1_iContract_%thread%_CreateAmendmentRepository_%BUILD_TIMESTAMP%_%BUILD_ID%
+
+jmeter -Jmeter.reportgenerator.report_title="L1_iContract_ParallelReviewAndApprove" -Jthread=%thread% -n -t D:\Upstream\iContract\L1_iContract_ParallelReviewAndApprove.jmx -l D:\JTL\L1_iContract_%thread%_ParallelReviewAndApprove_%BUILD_TIMESTAMP%_%BUILD_ID%.jtl -j D:\JTL\L1_iContract_%thread%_ParallelReviewAndApprove_%BUILD_TIMESTAMP%_%BUILD_ID%.log -e -o C:\xampp\htdocs\performance\L1_iContract_%thread%_ParallelReviewAndApprove_%BUILD_TIMESTAMP%_%BUILD_ID% && mkdir L1_iContract_%thread%_ParallelReviewAndApprove_%BUILD_TIMESTAMP%_%BUILD_ID%
+
+jmeter -Jmeter.reportgenerator.report_title="L1_iContract_SendForSignoffApproval" -Jthread=%thread% -n -t D:\Upstream\iContract\L1_iContract_SendForSignoffApproval.jmx -l D:\JTL\L1_iContract_%thread%_SendForSignoffApproval_%BUILD_TIMESTAMP%_%BUILD_ID%.jtl -j D:\JTL\L1_iContract_%thread%_SendForSignoffApproval_%BUILD_TIMESTAMP%_%BUILD_ID%.log -e -o C:\xampp\htdocs\performance\L1_iContract_%thread%_SendForSignoffApproval_%BUILD_TIMESTAMP%_%BUILD_ID% && mkdir L1_iContract_%thread%_SendForSignoffApproval_%BUILD_TIMESTAMP%_%BUILD_ID%
+
+njmeter -Jmeter.reportgenerator.report_title="L1_iContract_SendContractingPartyNegotiateStage " -Jthread=%thread% -n -t D:\Upstream\iContract\L1_iContract_SendContractingPartyNegotiateStage.jmx -l D:\JTL\L1_iContract_%thread%_SendContractingPartyNegotiateStage_%BUILD_TIMESTAMP%_%BUILD_ID%.jtl -j D:\JTL\L1_iContract_%thread%_SendContractingPartyNegotiateStage_%BUILD_TIMESTAMP%_%BUILD_ID%.log -e -o C:\xampp\htdocs\performance\L1_iContract_%thread%_SendContractingPartyNegotiateStage_%BUILD_TIMESTAMP%_%BUILD_ID% && mkdir L1_iContract_%thread%_SendContractingPartyNegotiateStage_%BUILD_TIMESTAMP%_%BUILD_ID%
+
+jmeter -Jmeter.reportgenerator.report_title="L1_iContract_WithdrawExternalReviewerNegotiateStage" -Jthread=%thread% -n -t D:\Upstream\iContract\L1_iContract_WithdrawExternalReviewerNegotiateStage.jmx -l D:\JTL\L1_iContract_%thread%_WithdrawExternalReviewerNegotiateStage_%BUILD_TIMESTAMP%_%BUILD_ID%.jtl -j D:\JTL\L1_iContract_%thread%_WithdrawExternalReviewerNegotiateStage_%BUILD_TIMESTAMP%_%BUILD_ID%.log -e -o C:\xampp\htdocs\performance\L1_iContract_%thread%_WithdrawExternalReviewerNegotiateStage_%BUILD_TIMESTAMP%_%BUILD_ID% && mkdir L1_iContract_%thread%_WithdrawExternalReviewerNegotiateStage_%BUILD_TIMESTAMP%_%BUILD_ID%
+
+
+10/11/2020
+
+jmeter -Jmeter.reportgenerator.report_title="L1_%Product%_%Title%" -Jthread=%thread%  -Jrampup=%rampup%  -n -t D:\Upstream\%Product%\%filename% -l D:\JTL\L1_%Product%_%thread%_%Title%_%BUILD_TIMESTAMP%_%BUILD_ID%.jtl -j D:\JTL\L1_%Product%_%thread%_%Title%_%BUILD_TIMESTAMP%_%BUILD_ID%.log -e -o C:\xampp\htdocs\performance\L1_%Product%_%thread%_%Title%_%BUILD_TIMESTAMP%_%BUILD_ID% && mkdir L1_%Product%_%thread%_%Title%_%BUILD_TIMESTAMP%_%BUILD_ID%
+
+jmeter -Jmeter.reportgenerator.report_title="L1_iContract_CloneContractRepository" -Jthread=%thread%  -Jrampup=%rampup%  -n -t D:\Upstream\iContract\L1_iContract_CloneContractRepository.jmx -l D:\JTL\L1_iContract_%thread%_CloneContractRepository_%BUILD_TIMESTAMP%_%BUILD_ID%.jtl -j D:\JTL\L1_iContract_%thread%_CloneContractRepository_%BUILD_TIMESTAMP%_%BUILD_ID%.log -e -o C:\xampp\htdocs\performance\L1_iContract_%thread%_CloneContractRepository_%BUILD_TIMESTAMP%_%BUILD_ID% && mkdir L1_iContract_%thread%_CloneContractRepository_%BUILD_TIMESTAMP%_%BUILD_ID%
+
+jmeter -Jmeter.reportgenerator.report_title="L1_iContract_AddingMultipleContractingParties" -Jthread=%thread% -Jrampup=%rampup%  -n -t D:\Upstream\iContract\L1_iContract_AddingMultipleContractingParties.jmx -l D:\JTL\L1_iContract_%thread%_AddingMultipleContractingParties_%BUILD_TIMESTAMP%_%BUILD_ID%.jtl -j D:\JTL\L1_iContract_%thread%_AddingMultipleContractingParties_%BUILD_TIMESTAMP%_%BUILD_ID%.log -e -o C:\xampp\htdocs\performance\L1_iContract_%thread%_AddingMultipleContractingParties_%BUILD_TIMESTAMP%_%BUILD_ID% && mkdir L1_iContract_%thread%_AddingMultipleContractingParties_%BUILD_TIMESTAMP%_%BUILD_ID%
+
+jmeter -Jmeter.reportgenerator.report_title="L1_iContract_CloneExistingContractRepository" -Jthread=%thread%  -Jrampup=%rampup%  -n -t D:\Upstream\iContract\L1_iContract_CloneExistingContractRepository.jmx -l D:\JTL\L1_iContract_%thread%_CloneExistingContractRepository_%BUILD_TIMESTAMP%_%BUILD_ID%.jtl -j D:\JTL\L1_iContract_%thread%_CloneExistingContractRepository_%BUILD_TIMESTAMP%_%BUILD_ID%.log -e -o C:\xampp\htdocs\performance\L1_iContract_%thread%_CloneExistingContractRepository_%BUILD_TIMESTAMP%_%BUILD_ID% && mkdir L1_iContract_%thread%_CloneExistingContractRepository_%BUILD_TIMESTAMP%_%BUILD_ID%
+
+jmeter -Jmeter.reportgenerator.report_title="L1_iContract_AddLineItemsRepository" -Jthread=%thread% -Jrampup=%rampup%  -n -t D:\Upstream\iContract\L1_iContract_AddLineItemsRepository.jmx -l D:\JTL\L1_iContract_%thread%_AddLineItemsRepository_%BUILD_TIMESTAMP%_%BUILD_ID%.jtl -j D:\JTL\L1_iContract_%thread%_AddLineItemsRepository_%BUILD_TIMESTAMP%_%BUILD_ID%.log -e -o C:\xampp\htdocs\performance\L1_iContract_%thread%_AddLineItemsRepository_%BUILD_TIMESTAMP%_%BUILD_ID% && mkdir L1_iContract_%thread%_AddLineItemsRepository_%BUILD_TIMESTAMP%_%BUILD_ID%
+
+
+jmeter -Jmeter.reportgenerator.report_title="L1_iContract_UploadRepositoryContract" -Jthread=%thread% -Jrampup=%rampup%  -n -t D:\Upstream\iContract\L1_iContract_UploadRepositoryContract.jmx -l D:\JTL\L1_iContract_%thread%_UploadRepositoryContract_%BUILD_TIMESTAMP%_%BUILD_ID%.jtl -j D:\JTL\L1_iContract_%thread%_UploadRepositoryContract_%BUILD_TIMESTAMP%_%BUILD_ID%.log -e -o C:\xampp\htdocs\performance\L1_iContract_%thread%_UploadRepositoryContract_%BUILD_TIMESTAMP%_%BUILD_ID% && mkdir L1_iContract_%thread%_UploadRepositoryContract_%BUILD_TIMESTAMP%_%BUILD_ID%
+
+
+jmeter -Jmeter.reportgenerator.report_title="L1_iContract_ToCreateNewContractAuthorContractSubTab" -Jthread=%thread% -Jrampup=%rampup%  -n -t D:\Upstream\iContract\L1_iContract_ToCreateNewContractAuthorContractSubTab.jmx -l D:\JTL\L1_iContract_%thread%_ToCreateNewContractAuthorContractSubTab_%BUILD_TIMESTAMP%_%BUILD_ID%.jtl -j D:\JTL\L1_iContract_%thread%_ToCreateNewContractAuthorContractSubTab_%BUILD_TIMESTAMP%_%BUILD_ID%.log -e -o C:\xampp\htdocs\performance\L1_iContract_%thread%_ToCreateNewContractAuthorContractSubTab_%BUILD_TIMESTAMP%_%BUILD_ID% && mkdir L1_iContract_%thread%_ToCreateNewContractAuthorContractSubTab_%BUILD_TIMESTAMP%_%BUILD_ID%
+
+jmeter -Jmeter.reportgenerator.report_title="L1_iContract_MultipleBUsAuthoringContract" -Jthread=%thread% -Jrampup=%rampup%  -n -t D:\Upstream\iContract\L1_iContract_MultipleBUsAuthoringContract.jmx -l D:\JTL\L1_iContract_%thread%_MultipleBUsAuthoringContract_%BUILD_TIMESTAMP%_%BUILD_ID%.jtl -j D:\JTL\L1_iContract_%thread%_MultipleBUsAuthoringContract_%BUILD_TIMESTAMP%_%BUILD_ID%.log -e -o C:\xampp\htdocs\performance\L1_iContract_%thread%_MultipleBUsAuthoringContract_%BUILD_TIMESTAMP%_%BUILD_ID% && mkdir L1_iContract_%thread%_MultipleBUsAuthoringContract_%BUILD_TIMESTAMP%_%BUILD_ID%
+
+jmeter -Jmeter.reportgenerator.report_title="L1_iContract_WithdrawContractSendForInternalReview" -Jthread=%thread%  -Jrampup=%rampup%  -n -t D:\Upstream\iContract\L1_iContract_WithdrawContractSendForInternalReview.jmx -l D:\JTL\L1_iContract_%thread%_WithdrawContractSendForInternalReview_%BUILD_TIMESTAMP%_%BUILD_ID%.jtl -j D:\JTL\L1_iContract_%thread%_WithdrawContractSendForInternalReview_%BUILD_TIMESTAMP%_%BUILD_ID%.log -e -o C:\xampp\htdocs\performance\L1_iContract_%thread%_WithdrawContractSendForInternalReview_%BUILD_TIMESTAMP%_%BUILD_ID% && mkdir L1_iContract_%thread%_WithdrawContractSendForInternalReview_%BUILD_TIMESTAMP%_%BUILD_ID%
+
+
+jmeter -Jmeter.reportgenerator.report_title="L1_iContract_SearchContractingPartySearchContractPerformanceTab" -Jthread=%thread% -Jrampup=%rampup%  -n -t D:\Upstream\iContract\L1_iContract_SearchContractingPartySearchContractPerformanceTab.jmx -l D:\JTL\L1_iContract_%thread%_SearchContractingPartySearchContractPerformanceTab_%BUILD_TIMESTAMP%_%BUILD_ID%.jtl -j D:\JTL\L1_iContract_%thread%_SearchContractingPartySearchContractPerformanceTab_%BUILD_TIMESTAMP%_%BUILD_ID%.log -e -o C:\xampp\htdocs\performance\L1_iContract_%thread%_SearchContractingPartySearchContractPerformanceTab_%BUILD_TIMESTAMP%_%BUILD_ID% && mkdir L1_iContract_%thread%_SearchContractingPartySearchContractPerformanceTab_%BUILD_TIMESTAMP%_%BUILD_ID%
+
+jmeter -Jmeter.reportgenerator.report_title="L1_iContract_ReviewCheckoutCheckinParallelReview" -Jthread=%thread% -Jrampup=%rampup%  -n -t D:\Upstream\iContract\L1_iContract_ReviewCheckoutCheckinParallelReview.jmx -l D:\JTL\L1_iContract_%thread%_ReviewCheckoutCheckinParallelReview_%BUILD_TIMESTAMP%_%BUILD_ID%.jtl -j D:\JTL\L1_iContract_%thread%_ReviewCheckoutCheckinParallelReview_%BUILD_TIMESTAMP%_%BUILD_ID%.log -e -o C:\xampp\htdocs\performance\L1_iContract_%thread%_ReviewCheckoutCheckinParallelReview_%BUILD_TIMESTAMP%_%BUILD_ID% && mkdir L1_iContract_%thread%_ReviewCheckoutCheckinParallelReview_%BUILD_TIMESTAMP%_%BUILD_ID%
+
+
+
+

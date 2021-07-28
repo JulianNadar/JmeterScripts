@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1627024576477,1371,1.1.1 home/api/u/tms/auth/isLogin,200,OK,RM_SendForSignoffAdhocApproval 1-1,text,true,,1667,460,1,1,https://dewdrops-rp.zycus.com/home/api/u/tms/auth/isLogin,1371,0,976
+1627024577852,400,1.1.2 home/api/u/tms/auth/isLogin,200,OK,RM_SendForSignoffAdhocApproval 1-1,text,true,,1667,512,1,1,https://dewdrops-rp.zycus.com/home/api/u/tms/auth/isLogin,400,0,0
+1627024578253,284,1.1.3 home/api/u/dd/users/getCSRFToken,200,OK,RM_SendForSignoffAdhocApproval 1-1,text,true,,1330,1243,1,1,https://dewdrops-rp.zycus.com/home/api/u/dd/users/getCSRFToken,284,0,0
+1627024576290,2055,1.1# Login,200,"Number of samples in transaction : 3, number of failing samples : 0",RM_SendForSignoffAdhocApproval 1-1,,true,,4664,2215,1,1,null,2055,192,976
+1627024578540,566,1.2.1 home/api/u/tms/auth/login,417,Expectation Failed,RM_SendForSignoffAdhocApproval 1-1,text,false,"Test failed: text expected to contain /""status"":""success""/",1349,610,1,1,https://dewdrops-rp.zycus.com/home/api/u/tms/auth/login,566,0,194

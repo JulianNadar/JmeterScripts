@@ -1,0 +1,24 @@
+2021-07-22 09:54:45,253 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2021-07-22 09:54:45,273 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2021-07-22 09:54:45,273 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2021-07-22 09:54:45,274 INFO o.a.j.JMeter: Setting JMeter property: meter.reportgenerator.report_title=CreateAuthoringContractWithCPInternalTemplate
+2021-07-22 09:54:45,275 INFO o.a.j.JMeter: Setting JMeter property: thread=10
+2021-07-22 09:54:45,275 INFO o.a.j.JMeter: Setting JMeter property: rampup=30
+2021-07-22 09:54:45,282 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2021-07-22 09:54:45,282 INFO o.a.j.JMeter: Version 5.1 r1853635
+2021-07-22 09:54:45,282 INFO o.a.j.JMeter: java.version=1.8.0_144
+2021-07-22 09:54:45,282 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2021-07-22 09:54:45,283 INFO o.a.j.JMeter: os.name=Windows 10
+2021-07-22 09:54:45,283 INFO o.a.j.JMeter: os.arch=amd64
+2021-07-22 09:54:45,283 INFO o.a.j.JMeter: os.version=10.0
+2021-07-22 09:54:45,283 INFO o.a.j.JMeter: file.encoding=Cp1252
+2021-07-22 09:54:45,283 INFO o.a.j.JMeter: java.awt.headless=true
+2021-07-22 09:54:45,283 INFO o.a.j.JMeter: Max memory     =8589934592
+2021-07-22 09:54:45,283 INFO o.a.j.JMeter: Available Processors =4
+2021-07-22 09:54:45,287 INFO o.a.j.JMeter: Default Locale=English (EN)
+2021-07-22 09:54:45,288 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2021-07-22 09:54:45,288 INFO o.a.j.JMeter: JMeterHome=D:\apache-jmeter-5.1\apache-jmeter-5.1
+2021-07-22 09:54:45,288 INFO o.a.j.JMeter: user.dir  =D:\apache-jmeter-5.1\apache-jmeter-5.1\bin
+2021-07-22 09:54:45,288 INFO o.a.j.JMeter: PWD       =D:\apache-jmeter-5.1\apache-jmeter-5.1\bin
+2021-07-22 09:54:45,290 INFO o.a.j.JMeter: IP: 192.168.35.159 Name: ZIPLSY1584 FullName: host.docker.internal
+2021-07-22 09:54:45,293 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\xampp\htdocs\performance\L0_iContract_10_CreateAuthoringContractWithCPInternalTemplate_2021-07-22_3'

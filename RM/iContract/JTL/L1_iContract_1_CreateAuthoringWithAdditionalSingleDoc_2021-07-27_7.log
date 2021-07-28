@@ -1,0 +1,35 @@
+2021-07-27 11:44:40,752 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2021-07-27 11:44:40,764 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2021-07-27 11:44:40,765 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2021-07-27 11:44:40,765 INFO o.a.j.JMeter: Setting JMeter property: meter.reportgenerator.report_title=CreateAuthoringWithAdditionalSingleDoc
+2021-07-27 11:44:40,765 INFO o.a.j.JMeter: Setting JMeter property: thread=1
+2021-07-27 11:44:40,765 INFO o.a.j.JMeter: Setting JMeter property: rampup=1
+2021-07-27 11:44:40,765 INFO o.a.j.JMeter: Setting JMeter property: Tenant=\PEAutomation\RM\iContract\L1_iContract_CreateAuthoringWithAdditionalSingleDoc.jmx
+2021-07-27 11:44:40,771 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2021-07-27 11:44:40,771 INFO o.a.j.JMeter: Version 5.1 r1853635
+2021-07-27 11:44:40,771 INFO o.a.j.JMeter: java.version=1.8.0_121
+2021-07-27 11:44:40,771 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2021-07-27 11:44:40,771 INFO o.a.j.JMeter: os.name=Windows 10
+2021-07-27 11:44:40,772 INFO o.a.j.JMeter: os.arch=amd64
+2021-07-27 11:44:40,772 INFO o.a.j.JMeter: os.version=10.0
+2021-07-27 11:44:40,772 INFO o.a.j.JMeter: file.encoding=Cp1252
+2021-07-27 11:44:40,772 INFO o.a.j.JMeter: java.awt.headless=true
+2021-07-27 11:44:40,772 INFO o.a.j.JMeter: Max memory     =8589934592
+2021-07-27 11:44:40,772 INFO o.a.j.JMeter: Available Processors =6
+2021-07-27 11:44:40,774 INFO o.a.j.JMeter: Default Locale=English (EN)
+2021-07-27 11:44:40,774 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2021-07-27 11:44:40,774 INFO o.a.j.JMeter: JMeterHome=D:\apache-jmeter-5.1\apache-jmeter-5.1
+2021-07-27 11:44:40,775 INFO o.a.j.JMeter: user.dir  =D:\apache-jmeter-5.1\apache-jmeter-5.1\bin
+2021-07-27 11:44:40,775 INFO o.a.j.JMeter: PWD       =D:\apache-jmeter-5.1\apache-jmeter-5.1\bin
+2021-07-27 11:44:40,776 INFO o.a.j.JMeter: IP: 172.30.225.123 Name: ZIPLSY2278 FullName: ZIPLSY2278.zycus.net
+2021-07-27 11:44:40,778 ERROR o.a.j.JMeter: An error occurred: 
+java.lang.IllegalArgumentException: Cannot write to 'C:\xampp\htdocs\POC\L1_iContract_1_CreateAuthoringWithAdditionalSingleDoc_2021-07-27_7' as folder does not exist and parent folder is not writable
+	at org.apache.jorphan.util.JOrphanUtils.canSafelyWriteToFolder(JOrphanUtils.java:683) ~[jorphan.jar:5.1 r1853635]
+	at org.apache.jorphan.util.JOrphanUtils.canSafelyWriteToFolder(JOrphanUtils.java:633) ~[jorphan.jar:5.1 r1853635]
+	at org.apache.jmeter.JMeter.extractAndSetReportOutputFolder(JMeter.java:593) ~[ApacheJMeter_core.jar:5.1 r1853635]
+	at org.apache.jmeter.JMeter.start(JMeter.java:547) [ApacheJMeter_core.jar:5.1 r1853635]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_121]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:253) [ApacheJMeter.jar:5.1 r1853635]
