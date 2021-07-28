@@ -1,6 +1,0 @@
-timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
-1627387918892,850,1.1.1 home/api/u/tms/auth/isLogin,200,OK,CreateAuthoringWithAdditionalSingleDoc-Job 1-1,text,true,,1691,460,1,1,https://dewdrops-rp.zycus.com/home/api/u/tms/auth/isLogin,850,0,803
-1627387919744,46,1.1.2 home/api/u/tms/auth/isLogin,200,OK,CreateAuthoringWithAdditionalSingleDoc-Job 1-1,text,true,,1691,512,1,1,https://dewdrops-rp.zycus.com/home/api/u/tms/auth/isLogin,46,0,0
-1627387919791,60,1.1.3 home/api/u/dd/users/getCSRFToken,200,OK,CreateAuthoringWithAdditionalSingleDoc-Job 1-1,text,true,,1354,1243,1,1,https://dewdrops-rp.zycus.com/home/api/u/dd/users/getCSRFToken,60,0,0
-1627387918845,956,1.1# Login,200,"Number of samples in transaction : 3, number of failing samples : 0",CreateAuthoringWithAdditionalSingleDoc-Job 1-1,,true,,4736,2215,1,1,null,956,50,803
-1627387919852,126,1.2.1 home/api/u/tms/auth/login,417,Expectation Failed,CreateAuthoringWithAdditionalSingleDoc-Job 1-1,text,false,"Test failed: text expected to contain /""status"":""success""/",1343,610,1,1,https://dewdrops-rp.zycus.com/home/api/u/tms/auth/login,125,0,0

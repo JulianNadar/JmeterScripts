@@ -1,6 +1,0 @@
-timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
-1627384595724,1461,1.1.1 home/api/u/tms/auth/isLogin,200,OK,RM_CreateAmendmentRepository 1-1,text,true,,1691,460,1,1,https://dewdrops-rp.zycus.com/home/api/u/tms/auth/isLogin,1461,0,1419
-1627384597188,39,1.1.2 home/api/u/tms/auth/isLogin,200,OK,RM_CreateAmendmentRepository 1-1,text,true,,1691,512,1,1,https://dewdrops-rp.zycus.com/home/api/u/tms/auth/isLogin,39,0,0
-1627384597228,34,1.1.3 home/api/u/dd/users/getCSRFToken,200,OK,RM_CreateAmendmentRepository 1-1,text,true,,1354,1263,1,1,https://dewdrops-rp.zycus.com/home/api/u/dd/users/getCSRFToken,34,0,0
-1627384595633,1534,1.1# Login,200,"Number of samples in transaction : 3, number of failing samples : 0",RM_CreateAmendmentRepository 1-1,,true,,4736,2235,1,1,null,1534,96,1419
-1627384597264,76,1.2.1 home/api/u/tms/auth/login,417,Expectation Failed,RM_CreateAmendmentRepository 1-1,text,false,"Test failed: text expected to contain /""status"":""success""/",1368,610,1,1,https://dewdrops-rp.zycus.com/home/api/u/tms/auth/login,75,0,0

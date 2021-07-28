@@ -1,6 +1,0 @@
-timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
-1627024432778,1621,1.1.1 home/api/u/tms/auth/isLogin,200,OK,MultipleBUsAuthoringContract 1-1,text,true,,1667,460,1,1,https://dewdrops-rp.zycus.com/home/api/u/tms/auth/isLogin,1620,0,1223
-1627024434407,410,1.1.2 home/api/u/tms/auth/isLogin,200,OK,MultipleBUsAuthoringContract 1-1,text,true,,1667,512,1,1,https://dewdrops-rp.zycus.com/home/api/u/tms/auth/isLogin,410,0,0
-1627024434818,302,1.1.3 home/api/u/dd/users/getCSRFToken,200,OK,MultipleBUsAuthoringContract 1-1,text,true,,1330,1263,1,1,https://dewdrops-rp.zycus.com/home/api/u/dd/users/getCSRFToken,302,0,0
-1627024432702,2333,1.1# Login,200,"Number of samples in transaction : 3, number of failing samples : 0",MultipleBUsAuthoringContract 1-1,,true,,4664,2235,1,1,null,2332,86,1223
-1627024435121,814,1.2.1 home/api/u/tms/auth/login,417,Expectation Failed,MultipleBUsAuthoringContract 1-1,text,false,"Test failed: text expected to contain /""status"":""success""/",1349,610,1,1,https://dewdrops-rp.zycus.com/home/api/u/tms/auth/login,814,0,276

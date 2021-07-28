@@ -1,5 +1,0 @@
-timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
-1626957073085,2040,1.1.1 home/api/u/tms/auth/isLogin,200,OK,L1-iSource-AuctionDefineSettings-Job 1-1,text,true,,1667,460,1,1,https://dewdrops-rp.zycus.com/home/api/u/tms/auth/isLogin,2040,0,1942
-1626957075126,178,1.1.2 home/lmt/translations/DD-Login/en_US.json,200,OK,L1-iSource-AuctionDefineSettings-Job 1-1,text,true,,13408,474,1,1,https://dewdrops-rp.zycus.com/home/lmt/translations/DD-Login/en_US.json,161,0,57
-1626957072873,2218,1.1# Login_Credential,200,"Number of samples in transaction : 2, number of failing samples : 0",L1-iSource-AuctionDefineSettings-Job 1-1,,true,,15075,934,1,1,null,2201,215,1999
-1626957081343,328,1.2.1 home/api/u/tms/auth/login,417,Expectation Failed,L1-iSource-AuctionDefineSettings-Job 1-1,text,false,"Test failed: text expected to contain /""status"":""success""/",1324,610,1,1,https://dewdrops-rp.zycus.com/home/api/u/tms/auth/login,328,0,107
