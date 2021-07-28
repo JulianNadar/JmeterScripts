@@ -1,0 +1,312 @@
+2021-07-01 15:09:56,308 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2021-07-01 15:09:56,319 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2021-07-01 15:09:56,319 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2021-07-01 15:09:56,319 INFO o.a.j.JMeter: Setting JMeter property: meter.reportgenerator.report_title=RaceConditionAuction
+2021-07-01 15:09:56,320 INFO o.a.j.JMeter: Setting JMeter property: thread=50
+2021-07-01 15:09:56,320 INFO o.a.j.JMeter: Setting JMeter property: rampup=250
+2021-07-01 15:09:56,323 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2021-07-01 15:09:56,324 INFO o.a.j.JMeter: Version 5.1 r1853635
+2021-07-01 15:09:56,324 INFO o.a.j.JMeter: java.version=1.8.0_121
+2021-07-01 15:09:56,324 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2021-07-01 15:09:56,324 INFO o.a.j.JMeter: os.name=Windows 10
+2021-07-01 15:09:56,324 INFO o.a.j.JMeter: os.arch=amd64
+2021-07-01 15:09:56,324 INFO o.a.j.JMeter: os.version=10.0
+2021-07-01 15:09:56,324 INFO o.a.j.JMeter: file.encoding=Cp1252
+2021-07-01 15:09:56,324 INFO o.a.j.JMeter: java.awt.headless=true
+2021-07-01 15:09:56,324 INFO o.a.j.JMeter: Max memory     =8589934592
+2021-07-01 15:09:56,324 INFO o.a.j.JMeter: Available Processors =6
+2021-07-01 15:09:56,326 INFO o.a.j.JMeter: Default Locale=English (EN)
+2021-07-01 15:09:56,327 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2021-07-01 15:09:56,327 INFO o.a.j.JMeter: JMeterHome=D:\apache-jmeter-5.1\apache-jmeter-5.1
+2021-07-01 15:09:56,327 INFO o.a.j.JMeter: user.dir  =D:\apache-jmeter-5.1\apache-jmeter-5.1\bin
+2021-07-01 15:09:56,327 INFO o.a.j.JMeter: PWD       =D:\apache-jmeter-5.1\apache-jmeter-5.1\bin
+2021-07-01 15:09:56,328 INFO o.a.j.JMeter: IP: 172.30.225.123 Name: ZIPLSY2278 FullName: ZIPLSY2278.zycus.net
+2021-07-01 15:09:56,330 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\xampp\htdocs\PerformancePostgres\L0_iSource_50_RaceConditionAuction_2021-07-01_20'
+2021-07-01 15:09:56,332 INFO o.a.j.s.FileServer: Default base='D:\apache-jmeter-5.1\apache-jmeter-5.1\bin'
+2021-07-01 15:09:56,335 INFO o.a.j.s.FileServer: Set new base='D:\PostrgresMigration\iSource'
+2021-07-01 15:09:56,432 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2021-07-01 15:09:56,444 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2021-07-01 15:09:56,448 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2021-07-01 15:09:56,452 INFO o.a.j.s.SaveService: Loading file: D:\PostrgresMigration\iSource\iSource_RaceConditionAuction.jmx
+2021-07-01 15:09:56,504 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2021-07-01 15:09:56,513 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+2021-07-01 15:09:56,522 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-07-01 15:09:56,522 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-07-01 15:09:56,522 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-07-01 15:09:56,523 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-07-01 15:09:56,523 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2021-07-01 15:09:56,523 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2021-07-01 15:09:56,817 INFO o.a.j.JMeter: Creating summariser <summary>
+2021-07-01 15:09:56,821 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2021-07-01 15:09:56,822 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: D:\PostrgresMigration\iSource\JTL\L0_iSource_50_RaceConditionAuction_2021-07-01_20.jtl
+2021-07-01 15:09:56,822 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: D:\apache-jmeter-5.1\apache-jmeter-5.1\bin\reportgenerator.properties
+2021-07-01 15:09:56,822 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2021-07-01 15:09:56,827 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2021-07-01 15:09:56,829 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2021-07-01 15:09:56,829 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction : {} is empty, not APDEX per transaction customization
+2021-07-01 15:09:56,829 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2021-07-01 15:09:56,830 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2021-07-01 15:09:56,830 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2021-07-01 15:09:56,830 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2021-07-01 15:09:56,830 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2021-07-01 15:09:56,830 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2021-07-01 15:09:56,834 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2021-07-01 15:09:56,835 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-07-01 15:09:56,835 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2021-07-01 15:09:56,835 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2021-07-01 15:09:56,835 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2021-07-01 15:09:56,835 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2021-07-01 15:09:56,835 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-07-01 15:09:56,835 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-07-01 15:09:56,835 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-07-01 15:09:56,835 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-07-01 15:09:56,836 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2021-07-01 15:09:56,836 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2021-07-01 15:09:56,836 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2021-07-01 15:09:56,837 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2021-07-01 15:09:56,837 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2021-07-01 15:09:56,837 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2021-07-01 15:09:56,842 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2021-07-01 15:09:56,842 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-07-01 15:09:56,842 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-07-01 15:09:56,847 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2021-07-01 15:09:56,847 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2021-07-01 15:09:57,253 INFO o.a.j.JMeter: Running test (1625132397253)
+2021-07-01 15:09:57,322 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : iSource_RaceConditionAuction
+2021-07-01 15:09:57,323 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group iSource_RaceConditionAuction.
+2021-07-01 15:09:57,323 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
+2021-07-01 15:09:57,323 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=50 ramp-up=250 perThread=5000.0 delayedStart=false
+2021-07-01 15:09:57,349 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2021-07-01 15:09:57,349 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2021-07-01 15:09:57,349 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2021-07-01 15:09:57,349 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2021-07-01 15:09:57,357 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-1
+2021-07-01 15:09:57,371 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = ZIPLSY2278
+2021-07-01 15:09:57,377 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2021-07-01 15:09:57,453 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2021-07-01 15:09:57,461 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2021-07-01 15:09:57,461 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2021-07-01 15:09:57,936 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2021-07-01 15:09:57,938 INFO o.a.j.u.SSLManager: KeyStore created OK
+2021-07-01 15:09:57,938 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2021-07-01 15:09:58,309 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2021-07-01 15:09:58,309 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2021-07-01 15:10:00,912 INFO o.a.j.r.Summariser: summary +      3 in 00:00:04 =    0.8/s Avg:   473 Min:    38 Max:  1137 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2021-07-01 15:10:02,389 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-2
+2021-07-01 15:10:07,425 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-3
+2021-07-01 15:10:12,459 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-4
+2021-07-01 15:10:17,483 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-5
+2021-07-01 15:10:22,503 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-6
+2021-07-01 15:10:27,525 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-7
+2021-07-01 15:10:30,239 INFO o.a.j.r.Summariser: summary +    239 in 00:00:29 =    8.1/s Avg:   173 Min:    29 Max:  1648 Err:     0 (0.00%) Active: 7 Started: 7 Finished: 0
+2021-07-01 15:10:30,239 INFO o.a.j.r.Summariser: summary =    242 in 00:00:33 =    7.3/s Avg:   176 Min:    29 Max:  1648 Err:     0 (0.00%)
+2021-07-01 15:10:32,543 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-8
+2021-07-01 15:10:37,564 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-9
+2021-07-01 15:10:42,585 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-10
+2021-07-01 15:10:47,606 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-11
+2021-07-01 15:10:52,625 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-12
+2021-07-01 15:10:57,644 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-13
+2021-07-01 15:11:00,027 INFO o.a.j.r.Summariser: summary +    459 in 00:00:30 =   15.4/s Avg:   278 Min:    29 Max:  1927 Err:     0 (0.00%) Active: 13 Started: 13 Finished: 0
+2021-07-01 15:11:00,028 INFO o.a.j.r.Summariser: summary =    701 in 00:01:03 =   11.2/s Avg:   243 Min:    29 Max:  1927 Err:     0 (0.00%)
+2021-07-01 15:11:02,665 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-14
+2021-07-01 15:11:07,684 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-15
+2021-07-01 15:11:12,700 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-16
+2021-07-01 15:11:17,718 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-17
+2021-07-01 15:11:22,734 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-18
+2021-07-01 15:11:27,754 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-19
+2021-07-01 15:11:30,003 INFO o.a.j.r.Summariser: summary +    567 in 00:00:30 =   18.9/s Avg:   497 Min:    28 Max:  3620 Err:     0 (0.00%) Active: 19 Started: 19 Finished: 0
+2021-07-01 15:11:30,004 INFO o.a.j.r.Summariser: summary =   1268 in 00:01:33 =   13.7/s Avg:   357 Min:    28 Max:  3620 Err:     0 (0.00%)
+2021-07-01 15:11:30,585 INFO o.a.j.t.JMeterThread: Thread is done: iSource_RaceConditionAuction 1-1
+2021-07-01 15:11:30,585 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-1
+2021-07-01 15:11:32,772 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-20
+2021-07-01 15:11:36,766 INFO o.a.j.t.JMeterThread: Thread is done: iSource_RaceConditionAuction 1-2
+2021-07-01 15:11:36,766 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-2
+2021-07-01 15:11:37,791 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-21
+2021-07-01 15:11:42,810 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-22
+2021-07-01 15:11:47,828 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-23
+2021-07-01 15:11:48,301 INFO o.a.j.t.JMeterThread: Thread is done: iSource_RaceConditionAuction 1-3
+2021-07-01 15:11:48,301 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-3
+2021-07-01 15:11:52,845 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-24
+2021-07-01 15:11:57,864 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-25
+2021-07-01 15:11:58,625 INFO o.a.j.t.JMeterThread: Thread is done: iSource_RaceConditionAuction 1-4
+2021-07-01 15:11:58,625 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-4
+2021-07-01 15:12:00,191 INFO o.a.j.r.Summariser: summary +    539 in 00:00:30 =   17.9/s Avg:   732 Min:    31 Max:  4486 Err:     0 (0.00%) Active: 21 Started: 25 Finished: 4
+2021-07-01 15:12:00,191 INFO o.a.j.r.Summariser: summary =   1807 in 00:02:03 =   14.7/s Avg:   469 Min:    28 Max:  4486 Err:     0 (0.00%)
+2021-07-01 15:12:02,884 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-26
+2021-07-01 15:12:07,902 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-27
+2021-07-01 15:12:12,919 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-28
+2021-07-01 15:12:16,904 INFO o.a.j.t.JMeterThread: Thread is done: iSource_RaceConditionAuction 1-5
+2021-07-01 15:12:16,905 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-5
+2021-07-01 15:12:17,937 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-29
+2021-07-01 15:12:22,959 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-30
+2021-07-01 15:12:27,976 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-31
+2021-07-01 15:12:29,034 INFO o.a.j.t.JMeterThread: Thread is done: iSource_RaceConditionAuction 1-6
+2021-07-01 15:12:29,034 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-6
+2021-07-01 15:12:30,054 INFO o.a.j.r.Summariser: summary +    498 in 00:00:30 =   16.7/s Avg:  1061 Min:    29 Max:  9531 Err:     0 (0.00%) Active: 25 Started: 31 Finished: 6
+2021-07-01 15:12:30,055 INFO o.a.j.r.Summariser: summary =   2305 in 00:02:33 =   15.1/s Avg:   597 Min:    28 Max:  9531 Err:     0 (0.00%)
+2021-07-01 15:12:32,992 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-32
+2021-07-01 15:12:38,010 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-33
+2021-07-01 15:12:43,028 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-34
+2021-07-01 15:12:44,305 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: iSource_RaceConditionAuction 1-30
+2021-07-01 15:12:44,305 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-30
+2021-07-01 15:12:44,739 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: iSource_RaceConditionAuction 1-32
+2021-07-01 15:12:44,739 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-32
+2021-07-01 15:12:44,742 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: iSource_RaceConditionAuction 1-28
+2021-07-01 15:12:44,742 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-28
+2021-07-01 15:12:45,568 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: iSource_RaceConditionAuction 1-20
+2021-07-01 15:12:45,569 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-20
+2021-07-01 15:12:46,126 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: iSource_RaceConditionAuction 1-22
+2021-07-01 15:12:46,126 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-22
+2021-07-01 15:12:47,046 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: iSource_RaceConditionAuction 1-19
+2021-07-01 15:12:47,046 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-19
+2021-07-01 15:12:47,066 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: iSource_RaceConditionAuction 1-8
+2021-07-01 15:12:47,066 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-8
+2021-07-01 15:12:47,435 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: iSource_RaceConditionAuction 1-9
+2021-07-01 15:12:47,435 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-9
+2021-07-01 15:12:47,763 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: iSource_RaceConditionAuction 1-14
+2021-07-01 15:12:47,763 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-14
+2021-07-01 15:12:47,896 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: iSource_RaceConditionAuction 1-33
+2021-07-01 15:12:47,896 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-33
+2021-07-01 15:12:48,047 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-35
+2021-07-01 15:12:48,281 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: iSource_RaceConditionAuction 1-18
+2021-07-01 15:12:48,281 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-18
+2021-07-01 15:12:53,064 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-36
+2021-07-01 15:12:54,260 INFO o.a.j.t.JMeterThread: Thread is done: iSource_RaceConditionAuction 1-7
+2021-07-01 15:12:54,260 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-7
+2021-07-01 15:12:58,082 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-37
+2021-07-01 15:13:00,034 INFO o.a.j.r.Summariser: summary +    469 in 00:00:30 =   15.6/s Avg:  1157 Min:    27 Max:  8967 Err:    11 (2.35%) Active: 19 Started: 37 Finished: 18
+2021-07-01 15:13:00,035 INFO o.a.j.r.Summariser: summary =   2774 in 00:03:03 =   15.2/s Avg:   691 Min:    27 Max:  9531 Err:    11 (0.40%)
+2021-07-01 15:13:03,127 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-38
+2021-07-01 15:13:08,148 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-39
+2021-07-01 15:13:13,162 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-40
+2021-07-01 15:13:18,176 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-41
+2021-07-01 15:13:23,192 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-42
+2021-07-01 15:13:25,788 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: iSource_RaceConditionAuction 1-11
+2021-07-01 15:13:25,788 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-11
+2021-07-01 15:13:26,506 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: iSource_RaceConditionAuction 1-25
+2021-07-01 15:13:26,507 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-25
+2021-07-01 15:13:26,515 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: iSource_RaceConditionAuction 1-39
+2021-07-01 15:13:26,516 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-39
+2021-07-01 15:13:26,609 INFO o.a.j.t.JMeterThread: Thread is done: iSource_RaceConditionAuction 1-10
+2021-07-01 15:13:26,609 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-10
+2021-07-01 15:13:27,361 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: iSource_RaceConditionAuction 1-23
+2021-07-01 15:13:27,361 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-23
+2021-07-01 15:13:27,380 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: iSource_RaceConditionAuction 1-24
+2021-07-01 15:13:27,380 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-24
+2021-07-01 15:13:27,447 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: iSource_RaceConditionAuction 1-15
+2021-07-01 15:13:27,447 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-15
+2021-07-01 15:13:27,615 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: iSource_RaceConditionAuction 1-17
+2021-07-01 15:13:27,615 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-17
+2021-07-01 15:13:27,622 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: iSource_RaceConditionAuction 1-37
+2021-07-01 15:13:27,623 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-37
+2021-07-01 15:13:28,207 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-43
+2021-07-01 15:13:28,208 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: iSource_RaceConditionAuction 1-41
+2021-07-01 15:13:28,208 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-41
+2021-07-01 15:13:28,604 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: iSource_RaceConditionAuction 1-26
+2021-07-01 15:13:28,604 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-26
+2021-07-01 15:13:28,674 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: iSource_RaceConditionAuction 1-12
+2021-07-01 15:13:28,674 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-12
+2021-07-01 15:13:29,351 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: iSource_RaceConditionAuction 1-36
+2021-07-01 15:13:29,352 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-36
+2021-07-01 15:13:29,352 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: iSource_RaceConditionAuction 1-27
+2021-07-01 15:13:29,353 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-27
+2021-07-01 15:13:29,395 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: iSource_RaceConditionAuction 1-31
+2021-07-01 15:13:29,395 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-31
+2021-07-01 15:13:29,442 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: iSource_RaceConditionAuction 1-16
+2021-07-01 15:13:29,442 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-16
+2021-07-01 15:13:29,654 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: iSource_RaceConditionAuction 1-38
+2021-07-01 15:13:29,654 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-38
+2021-07-01 15:13:29,657 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: iSource_RaceConditionAuction 1-40
+2021-07-01 15:13:29,657 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-40
+2021-07-01 15:13:29,658 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: iSource_RaceConditionAuction 1-35
+2021-07-01 15:13:29,658 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: iSource_RaceConditionAuction 1-21
+2021-07-01 15:13:29,658 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-35
+2021-07-01 15:13:29,658 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-21
+2021-07-01 15:13:29,737 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: iSource_RaceConditionAuction 1-29
+2021-07-01 15:13:29,737 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-29
+2021-07-01 15:13:30,250 INFO o.a.j.r.Summariser: summary +    440 in 00:00:30 =   14.6/s Avg:  1081 Min:    26 Max:  9212 Err:    21 (4.77%) Active: 4 Started: 43 Finished: 39
+2021-07-01 15:13:30,250 INFO o.a.j.r.Summariser: summary =   3214 in 00:03:33 =   15.1/s Avg:   745 Min:    26 Max:  9531 Err:    32 (1.00%)
+2021-07-01 15:13:30,251 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: iSource_RaceConditionAuction 1-42
+2021-07-01 15:13:30,251 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: iSource_RaceConditionAuction 1-13
+2021-07-01 15:13:30,251 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-42
+2021-07-01 15:13:30,251 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-13
+2021-07-01 15:13:30,354 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: iSource_RaceConditionAuction 1-34
+2021-07-01 15:13:30,354 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-34
+2021-07-01 15:13:33,222 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-44
+2021-07-01 15:13:38,238 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-45
+2021-07-01 15:13:43,254 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-46
+2021-07-01 15:13:48,268 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-47
+2021-07-01 15:13:53,284 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-48
+2021-07-01 15:13:58,297 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-49
+2021-07-01 15:14:00,229 INFO o.a.j.r.Summariser: summary +    215 in 00:00:30 =    7.2/s Avg:   261 Min:    27 Max:  5207 Err:     2 (0.93%) Active: 7 Started: 49 Finished: 42
+2021-07-01 15:14:00,230 INFO o.a.j.r.Summariser: summary =   3429 in 00:04:03 =   14.1/s Avg:   714 Min:    26 Max:  9531 Err:    34 (0.99%)
+2021-07-01 15:14:03,312 INFO o.a.j.t.JMeterThread: Thread started: iSource_RaceConditionAuction 1-50
+2021-07-01 15:14:30,035 INFO o.a.j.r.Summariser: summary +    214 in 00:00:30 =    7.2/s Avg:   642 Min:    31 Max:  4285 Err:     0 (0.00%) Active: 8 Started: 50 Finished: 42
+2021-07-01 15:14:30,035 INFO o.a.j.r.Summariser: summary =   3643 in 00:04:33 =   13.4/s Avg:   710 Min:    26 Max:  9531 Err:    34 (0.93%)
+2021-07-01 15:15:00,169 INFO o.a.j.r.Summariser: summary +    202 in 00:00:30 =    6.7/s Avg:   848 Min:   120 Max:  4263 Err:     0 (0.00%) Active: 8 Started: 50 Finished: 42
+2021-07-01 15:15:00,170 INFO o.a.j.r.Summariser: summary =   3845 in 00:05:03 =   12.7/s Avg:   717 Min:    26 Max:  9531 Err:    34 (0.88%)
+2021-07-01 15:15:30,444 INFO o.a.j.r.Summariser: summary +    192 in 00:00:30 =    6.3/s Avg:   995 Min:    49 Max:  5444 Err:     0 (0.00%) Active: 8 Started: 50 Finished: 42
+2021-07-01 15:15:30,445 INFO o.a.j.r.Summariser: summary =   4037 in 00:05:33 =   12.1/s Avg:   731 Min:    26 Max:  9531 Err:    34 (0.84%)
+2021-07-01 15:15:37,617 INFO o.a.j.t.JMeterThread: Thread is done: iSource_RaceConditionAuction 1-43
+2021-07-01 15:15:37,617 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-43
+2021-07-01 15:15:46,401 INFO o.a.j.t.JMeterThread: Thread is done: iSource_RaceConditionAuction 1-44
+2021-07-01 15:15:46,401 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-44
+2021-07-01 15:15:52,002 INFO o.a.j.t.JMeterThread: Thread is done: iSource_RaceConditionAuction 1-45
+2021-07-01 15:15:52,002 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-45
+2021-07-01 15:15:58,748 INFO o.a.j.t.JMeterThread: Thread is done: iSource_RaceConditionAuction 1-46
+2021-07-01 15:15:58,748 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-46
+2021-07-01 15:16:00,457 INFO o.a.j.r.Summariser: summary +    176 in 00:00:30 =    5.9/s Avg:   879 Min:    57 Max:  4945 Err:     0 (0.00%) Active: 4 Started: 50 Finished: 46
+2021-07-01 15:16:00,458 INFO o.a.j.r.Summariser: summary =   4213 in 00:06:03 =   11.6/s Avg:   737 Min:    26 Max:  9531 Err:    34 (0.81%)
+2021-07-01 15:16:02,024 INFO o.a.j.t.JMeterThread: Thread is done: iSource_RaceConditionAuction 1-47
+2021-07-01 15:16:02,024 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-47
+2021-07-01 15:16:10,848 INFO o.a.j.t.JMeterThread: Thread is done: iSource_RaceConditionAuction 1-48
+2021-07-01 15:16:10,848 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-48
+2021-07-01 15:16:17,766 INFO o.a.j.t.JMeterThread: Thread is done: iSource_RaceConditionAuction 1-49
+2021-07-01 15:16:17,766 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-49
+2021-07-01 15:16:19,829 INFO o.a.j.t.JMeterThread: Thread is done: iSource_RaceConditionAuction 1-50
+2021-07-01 15:16:19,829 INFO o.a.j.t.JMeterThread: Thread finished: iSource_RaceConditionAuction 1-50
+2021-07-01 15:16:19,830 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2021-07-01 15:16:19,833 INFO o.a.j.r.Summariser: summary +     58 in 00:00:19 =    3.0/s Avg:   658 Min:    45 Max:  2858 Err:     0 (0.00%) Active: 0 Started: 50 Finished: 50
+2021-07-01 15:16:19,833 INFO o.a.j.r.Summariser: summary =   4271 in 00:06:23 =   11.2/s Avg:   736 Min:    26 Max:  9531 Err:    34 (0.80%)
+2021-07-01 15:16:19,834 INFO o.a.j.JMeter: Generating Dashboard
+2021-07-01 15:16:19,834 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2021-07-01 15:16:19,848 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2021-07-01 15:16:20,159 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2021-07-01 15:16:20,159 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2021-07-01 15:16:20,161 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2021-07-01 15:16:20,161 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2021-07-01 15:16:20,169 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2021-07-01 15:16:20,173 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2021-07-01 15:16:20,173 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2021-07-01 15:16:20,173 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2021-07-01 15:16:20,221 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2021-07-01 15:16:20,221 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2021-07-01 15:16:20,221 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2021-07-01 15:16:20,221 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2021-07-01 15:16:20,255 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2021-07-01 15:16:20,255 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 29897 samples
+2021-07-01 15:16:20,255 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2021-07-01 15:16:20,255 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2021-07-01 15:16:20,255 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2021-07-01 15:16:20,262 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2021-07-01 15:16:20,263 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2021-07-01 15:16:20,264 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2021-07-01 15:16:20,274 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2021-07-01 15:16:20,275 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2021-07-01 15:16:20,276 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2021-07-01 15:16:20,277 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2021-07-01 15:16:20,277 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 72960 samples
+2021-07-01 15:16:20,277 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 14592 samples
+2021-07-01 15:16:20,277 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 4864 samples
+2021-07-01 15:16:20,279 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 4864 samples produced in 412ms on channel 0
+2021-07-01 15:16:20,279 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2021-07-01 15:16:20,280 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2021-07-01 15:16:20,280 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2021-07-01 15:16:20,281 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2021-07-01 15:16:20,281 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2021-07-01 15:16:20,283 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to C:\xampp\htdocs\PerformancePostgres\L0_iSource_50_RaceConditionAuction_2021-07-01_20\statistics.json
+2021-07-01 15:16:20,419 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2021-07-01 15:16:20,422 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: C:\xampp\htdocs\PerformancePostgres\L0_iSource_50_RaceConditionAuction_2021-07-01_20
+2021-07-01 15:16:20,648 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: C:\xampp\htdocs\PerformancePostgres\L0_iSource_50_RaceConditionAuction_2021-07-01_20, creating folder structure
+2021-07-01 15:16:20,651 INFO o.a.j.r.d.TemplateVisitor: Copying folder from 'D:\apache-jmeter-5.1\apache-jmeter-5.1\bin\report-template' to 'C:\xampp\htdocs\PerformancePostgres\L0_iSource_50_RaceConditionAuction_2021-07-01_20', got message:[C:\xampp\htdocs\PerformancePostgres\L0_iSource_50_RaceConditionAuction_2021-07-01_20\statistics.json], found non empty folder with following content {}, will be ignored
+2021-07-01 15:16:21,351 INFO o.a.j.JMeter: Dashboard generated

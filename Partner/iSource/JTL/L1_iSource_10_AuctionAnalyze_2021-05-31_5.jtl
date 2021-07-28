@@ -1,0 +1,23 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1622443769761,3737,1.1.1 home/api/u/tms/auth/isLogin,200,OK,L1_iSource_AuctionAnalyze 1-1,text,true,,1720,470,1,1,https://dewdrops-partner.zycus.com/home/api/u/tms/auth/isLogin,3737,0,2422
+1622443773501,1002,1.1.2 home/lmt/translations/DD-Login/en_US.json,200,OK,L1_iSource_AuctionAnalyze 1-1,text,true,,10090,484,1,1,https://dewdrops-partner.zycus.com/home/lmt/translations/DD-Login/en_US.json,1001,0,632
+1622443769688,4739,1.1# Login_Credential,200,"Number of samples in transaction : 2, number of failing samples : 0",L1_iSource_AuctionAnalyze 1-1,,true,,11810,954,1,1,null,4738,76,3054
+1622443777537,1245,1.2.1 home/api/u/tms/auth/login,200,OK,L1_iSource_AuctionAnalyze 1-1,text,true,,1754,607,1,1,https://dewdrops-partner.zycus.com/home/api/u/tms/auth/login,1245,0,586
+1622443778786,402,1.2.2 home/api/u/tms/auth/isLogin,200,OK,L1_iSource_AuctionAnalyze 1-1,text,true,,1719,594,1,1,https://dewdrops-partner.zycus.com/home/api/u/tms/auth/isLogin,401,0,0
+1622443779190,1157,1.2.3 home/api/a/dd/users/getDetails,200,OK,L1_iSource_AuctionAnalyze 1-1,text,true,,22472,545,1,1,https://dewdrops-partner.zycus.com/home/api/a/dd/users/getDetails,876,0,0
+1622443780351,1995,1.2.4 home/lmt/translations/DewDrops/en_US.json,200,OK,L1_iSource_AuctionAnalyze 1-1,text,true,,133771,556,1,1,https://dewdrops-partner.zycus.com/home/lmt/translations/DewDrops/en_US.json,1239,0,568
+1622443782349,838,1.2.5 eproc/api/a/eproc/users/doValidateUserDefaults,200,OK,L1_iSource_AuctionAnalyze 1-1,text,true,,2031,561,1,1,https://dewdrops-partner.zycus.com/eproc/api/a/eproc/users/doValidateUserDefaults,838,0,0
+1622443783190,907,1.2.6 home/api/a/dd/users/getTokenId,200,OK,L1_iSource_AuctionAnalyze 1-1,text,true,,1401,624,1,1,https://dewdrops-partner.zycus.com/home/api/a/dd/users/getTokenId,907,0,495
+1622443784097,521,1.2.7 home/api/a/tms/themes/menus,200,OK,L1_iSource_AuctionAnalyze 1-1,text,true,,7864,621,1,1,https://dewdrops-partner.zycus.com/home/api/a/tms/themes/menus,520,0,0
+1622443784619,389,1.2.8 home/api/a/tms/users/getRoles,200,OK,L1_iSource_AuctionAnalyze 1-1,text,true,,6979,623,1,1,https://dewdrops-partner.zycus.com/home/api/a/tms/users/getRoles,389,0,0
+1622443785009,548,1.2.9 home/api/a/tms/users/preferenceData,200,OK,L1_iSource_AuctionAnalyze 1-1,text,true,,9515,629,1,1,https://dewdrops-partner.zycus.com/home/api/a/tms/users/preferenceData,548,0,0
+1622443785558,914,1.2.10 home/api/a/sht/helpcontents/dewdrops/getKeys,200,OK,L1_iSource_AuctionAnalyze 1-1,text,true,,2088,638,1,1,https://dewdrops-partner.zycus.com/home/api/a/sht/helpcontents/dewdrops/getKeys,913,0,477
+1622443786472,380,1.2.11 home/api/a/tms/companies/getLogo,200,OK,L1_iSource_AuctionAnalyze 1-1,bin,true,,4716,626,1,1,https://dewdrops-partner.zycus.com/home/api/a/tms/companies/getLogo,380,0,0
+1622443786853,406,1.2.12 home/api/a/tms/users/getUserImage,200,OK,L1_iSource_AuctionAnalyze 1-1,text,true,,1370,627,1,1,https://dewdrops-partner.zycus.com/home/api/a/tms/users/getUserImage,405,0,0
+1622443787261,355,1.2.13 home/api/a/dd/batch,200,OK,L1_iSource_AuctionAnalyze 1-1,text,true,,1394,1048,1,1,https://dewdrops-partner.zycus.com/home/api/a/dd/batch,355,0,0
+1622443787617,1102,1.2.14 home/api/a/dd/batch/{requestID},200,OK,L1_iSource_AuctionAnalyze 1-1,text,true,,12108,674,1,1,https://dewdrops-partner.zycus.com/home/api/a/dd/batch/6c7820b0-c1dc-11eb-879d-c3159c76cc31-123.108.35.234,884,0,479
+1622443788720,421,1.2.15 home/api/a/dd/searches/getIntents,200,OK,L1_iSource_AuctionAnalyze 1-1,text,true,,1315,789,1,1,https://dewdrops-partner.zycus.com/home/api/a/dd/searches/getIntents,421,0,0
+1622443777537,11580,1.2. Login_Home,200,"Number of samples in transaction : 15, number of failing samples : 0",L1_iSource_AuctionAnalyze 1-1,,true,,210497,9762,1,1,null,10321,24,2605
+1622443792187,1713,2.1 isource/api/a/isource/events/updateCertificate,200,OK,L1_iSource_AuctionAnalyze 1-1,text,true,,1582,500,1,1,https://dewdrops-partner.zycus.com/isource/api/a/isource/events/updateCertificate,1713,0,815
+1622443793902,380,2.2 api/a/tms/activities/isource/getActivities,200,OK,L1_iSource_AuctionAnalyze 1-1,text,true,,2299,639,1,1,https://dewdrops-partner.zycus.com/isource/api/a/tms/activities/isource/getActivities,380,0,0
+1622443794287,1407,2.3 api/a/dd/batch,200,OK,L1_iSource_AuctionAnalyze 1-1,text,true,,1551,893,1,1,https://dewdrops-partner.zycus.com/isource/api/a/dd/batch,1407,0,510

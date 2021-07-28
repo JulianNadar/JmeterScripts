@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1621916367861,1356,1.1.1 home/api/u/tms/auth/isLogin,200,OK,L1-iSource-Auction-NonPricingRescheduleEvent-JOB 1-1,text,true,,1720,470,1,1,https://dewdrops-partner.zycus.com/home/api/u/tms/auth/isLogin,1356,0,1062
+1621916369221,35,1.1.2 home/lmt/translations/DD-Login/en_US.json,200,OK,L1-iSource-Auction-NonPricingRescheduleEvent-JOB 1-1,text,true,,10090,484,1,1,https://dewdrops-partner.zycus.com/home/lmt/translations/DD-Login/en_US.json,33,0,0
+1621916367777,1391,1.1# Login_Credential,200,"Number of samples in transaction : 2, number of failing samples : 0",L1-iSource-Auction-NonPricingRescheduleEvent-JOB 1-1,,true,,11810,954,1,1,null,1389,87,1062

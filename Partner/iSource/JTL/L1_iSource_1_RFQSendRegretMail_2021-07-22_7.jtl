@@ -1,0 +1,5 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1626957539630,2116,1.1.1 home/api/u/tms/auth/isLogin,200,OK,L1-iSource-RFQSendRegretMail-JOB 1-1,text,true,,1720,470,1,1,https://dewdrops-partner.zycus.com/home/api/u/tms/auth/isLogin,2116,0,1455
+1626957541750,1012,1.1.2 home/lmt/translations/DD-Login/en_US.json,200,OK,L1-iSource-RFQSendRegretMail-JOB 1-1,text,true,,10090,484,1,1,https://dewdrops-partner.zycus.com/home/lmt/translations/DD-Login/en_US.json,1011,0,538
+1626957539573,3128,1.1# Login_Credential,200,"Number of samples in transaction : 2, number of failing samples : 0",L1-iSource-RFQSendRegretMail-JOB 1-1,,true,,11810,954,1,1,null,3127,60,1993
+1626957548792,1020,1.2.1 home/api/u/tms/auth/login,417,Expectation Failed,L1-iSource-RFQSendRegretMail-JOB 1-1,text,false,"Test failed: text expected to contain /""status"":""success""/",1368,621,1,1,https://dewdrops-partner.zycus.com/home/api/u/tms/auth/login,1019,0,383
